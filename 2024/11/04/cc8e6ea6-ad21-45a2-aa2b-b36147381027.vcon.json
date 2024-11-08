@@ -1,0 +1,115 @@
+{
+  "uuid": "0192f92b-c72b-8947-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-11-04T21:54:08.811613+00:00",
+  "parties": [
+    {
+      "tel": "+19407396583",
+      "mailto": "alan.ward@pawnshop.com",
+      "name": "Alan Ward",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+16154910822",
+      "mailto": "emily.morris@gmail.com",
+      "name": "Emily Morris",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-11-04T21:54:08.288292",
+      "duration": 41.016,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "cc8e6ea6-ad21-45a2-aa2b-b36147381027.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "Dv40er3ZKyjU4zBivq5A7G7yX_KLm9W4J804s-HNlp4=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Alan Ward",
+        "customer_name": "Emily Morris",
+        "business": "Pawn Shop",
+        "problem": "privacy",
+        "emotion": "nervous",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Alan Ward and the customer's name is Emily Morris.  The conversation is about a random business (a Pawn Shop ) and is a conversation about privacy.",
+        "created_on": "2024-11-04T21:54:08.811533",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! My name is Alan Ward, and I represent Quick Cash Pawn Shop."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Alan, nice to meet you!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "It\u2019s great to meet you too, Emily! How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I have some concerns about privacy when pawning my items."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I completely understand, Emily. Your privacy is very important to us. Can I ask you your last name for our records?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it\u2019s Morris."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Emily Morris. And may I also have your phone number, please?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "It's one two three four five six seven eight."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Perfect! I assure you that all your information will be kept confidential."
+        },
+        {
+          "speaker": "Customer",
+          "message": "That makes me feel much better, thank you."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You\u2019re welcome, Emily! Thank you for your time today, and if you have any further questions, feel free to reach out!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Alan Ward and the customer's name is Emily Morris.  The conversation is about a random business (a Pawn Shop ) and is a conversation about privacy."
+      }
+    }
+  ]
+}

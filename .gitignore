@@ -1,0 +1,24 @@
+# Ignore python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtualenv
+venv/
+.venv/
+
+# Ignore log files
+*.log
+
+# Ignore build files
+build/
+dist/
+
+# Ignore local development database
+db.sqlite3
+
+# Ignore local development settings
+local_settings.py
+
+.DS_Store
+.gitattributes

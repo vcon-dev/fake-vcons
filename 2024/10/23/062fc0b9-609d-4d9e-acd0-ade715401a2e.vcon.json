@@ -1,0 +1,155 @@
+{
+  "uuid": "0192bad6-a91b-84cc-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-23T19:24:43.163379+00:00",
+  "parties": [
+    {
+      "tel": "+17703730896",
+      "mailto": "alan.gonzales@cardealership.com",
+      "name": "Alan Gonzales",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+18932277358",
+      "mailto": "julie.washington@gmail.com",
+      "name": "Julie Washington",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2024-10-23T12:24:43.162737",
+      "duration": 0,
+      "parties": [
+        0,
+        1
+      ],
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Thank you for calling Vincenzo's Benzos. My name is Alan Gonzales. Could I please get your name to better assist you?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Alan, my name is Julie Washington."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Julie! How can I help you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm interested in learning more about your current offers on SUVs."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great choice! We have some fantastic SUV models. Before we proceed, could you please provide me with your email address so I can send you some details?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my email address is juliewashington at example dot com."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Julie. And could I also get your contact number for any follow-up questions or exclusive offers we might have?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Of course, my contact number is five five five, seven one two, three four five six."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Perfect, thank you. I\u2019ll send over the details and keep you updated on our offers. Is there anything else I can assist you with?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that covers it. Thank you, Alan."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your time, Julie. We look forward to helping you find the perfect SUV. Have a great day!"
+        }
+      ],
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Alan Gonzales",
+        "customer_name": "Julie Washington",
+        "business": "Car Dealership",
+        "problem": "typical situation",
+        "emotion": "confused",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Alan Gonzales and the customer's name is Julie Washington.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation.",
+        "created_on": "2024-10-23T12:24:43.163224",
+        "model": "gpt-4o"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Thank you for calling Vincenzo's Benzos. My name is Alan Gonzales. Could I please get your name to better assist you?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Alan, my name is Julie Washington."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Julie! How can I help you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm interested in learning more about your current offers on SUVs."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great choice! We have some fantastic SUV models. Before we proceed, could you please provide me with your email address so I can send you some details?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my email address is juliewashington at example dot com."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Julie. And could I also get your contact number for any follow-up questions or exclusive offers we might have?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Of course, my contact number is five five five, seven one two, three four five six."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Perfect, thank you. I\u2019ll send over the details and keep you updated on our offers. Is there anything else I can assist you with?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that covers it. Thank you, Alan."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your time, Julie. We look forward to helping you find the perfect SUV. Have a great day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Alan Gonzales and the customer's name is Julie Washington.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "uuid": "0192a4c9-ff63-8b8a-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-19T12:39:14.531756+00:00",
+  "parties": [
+    {
+      "tel": "+14087357371",
+      "mailto": "jordan.brooks@roofingservice.com",
+      "name": "Jordan Brooks",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+14277068962",
+      "mailto": "stephanie.bryant@gmail.com",
+      "name": "Stephanie Bryant",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-19T12:39:13.935172",
+      "duration": 54.072,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "487e6993-9121-4197-be9b-529b40edb379.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "aVWReK8Ie89yM2_Q1n_rlbEg-3MrpQxpolstSmPtVdk=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Jordan Brooks",
+        "customer_name": "Stephanie Bryant",
+        "business": "Roofing Service",
+        "problem": "customer service",
+        "emotion": "anxious",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Jordan Brooks and the customer's name is Stephanie Bryant.  The conversation is about MetaCar (a Roofing Service ) and is a conversation about customer service.The customer is feeling {emotion}.",
+        "created_on": "2024-10-19T12:39:14.531686",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! My name is Jordan Brooks, and I represent MetaCar, your trusted roofing service provider."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Jordan, I'm Stephanie Bryant."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Stephanie! How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm feeling a bit frustrated with the roofing issue I've been experiencing lately."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I'm sorry to hear that, Stephanie. Could you provide me with a bit more detail about the issue?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, I've noticed some leaks during heavy rain."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for sharing that. Can I please get the address of the property where the issue is occurring?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "It's at twenty three hundred Maple Drive."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you! Lastly, could you provide me with your phone number for follow-up purposes?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Of course. It's four zero four, two five six, eight one two three."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Stephanie! I appreciate your time today. We will get someone out to assess the situation soon."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Thank you, Jordan. I look forward to hearing from you."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome! Have a great day, and thank you for choosing MetaCar!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Jordan Brooks and the customer's name is Stephanie Bryant.  The conversation is about MetaCar (a Roofing Service ) and is a conversation about customer service.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

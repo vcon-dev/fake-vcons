@@ -1,0 +1,123 @@
+{
+  "uuid": "0192a4ce-9c32-8945-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-19T12:44:16.818617+00:00",
+  "parties": [
+    {
+      "tel": "+14508026559",
+      "mailto": "benjamin.wilson@carrentalagency.com",
+      "name": "Benjamin Wilson",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+12453105484",
+      "mailto": "christina.turner@gmail.com",
+      "name": "Christina Turner",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-19T12:44:16.233621",
+      "duration": 63.048,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "591e3190-0344-411e-8e35-dc3dd0c09ad5.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "ePKl5lFyso99QdNTVW95CTXxNHlGvTBXCPuaEUmjgRE=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Benjamin Wilson",
+        "customer_name": "Christina Turner",
+        "business": "Car Rental Agency",
+        "problem": "customer service",
+        "emotion": "surprised",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Benjamin Wilson and the customer's name is Christina Turner.  The conversation is about MetaCar (a Car Rental Agency ) and is a conversation about customer service.The customer is feeling {emotion}.",
+        "created_on": "2024-10-19T12:44:16.818539",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! My name is Benjamin Wilson, and I am with MetaCar, a leading car rental agency. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi, Benjamin. I'm having a bit of a frustrating experience with my recent rental."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I'm sorry to hear that, Christina. Can you please tell me a bit more about the issue you're facing?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Well, the car I received doesn't match what I had reserved."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I understand how disappointing that can be. To help you better, could you please provide your reservation number?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it\u2019s one two three four five."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Christina. And could I also have your phone number for verification purposes?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Of course, it's five five five, six seven eight, nine zero one two."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great! Thank you for that information. Let me check your reservation details right away."
+        },
+        {
+          "speaker": "Customer",
+          "message": "I really hope you can sort this out."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I will do my very best, Christina. Thank you for your patience. Is there anything else I can help you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all for now. Thank you!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your time, Christina. I appreciate it. If you need further assistance, don\u2019t hesitate to reach out. Have a great day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Benjamin Wilson and the customer's name is Christina Turner.  The conversation is about MetaCar (a Car Rental Agency ) and is a conversation about customer service.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

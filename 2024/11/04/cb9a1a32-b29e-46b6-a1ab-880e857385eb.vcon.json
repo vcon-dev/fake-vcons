@@ -1,0 +1,115 @@
+{
+  "uuid": "0192f92a-1317-879d-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-11-04T21:52:17.175503+00:00",
+  "parties": [
+    {
+      "tel": "+13043840814",
+      "mailto": "edward.lewis@pawnshop.com",
+      "name": "Edward Lewis",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+19359424685",
+      "mailto": "karen.cook@gmail.com",
+      "name": "Karen Cook",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-11-04T21:52:16.669242",
+      "duration": 48.576,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "cb9a1a32-b29e-46b6-a1ab-880e857385eb.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "mhDjTyiSPH2w4OgS1z3hGD_WemECF0YAlP1gwLQihok=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Edward Lewis",
+        "customer_name": "Karen Cook",
+        "business": "Pawn Shop",
+        "problem": "privacy",
+        "emotion": "sad",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Edward Lewis and the customer's name is Karen Cook.  The conversation is about a random business (a Pawn Shop ) and is a conversation about privacy.",
+        "created_on": "2024-11-04T21:52:17.175440",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! My name is Edward Lewis, and I'm with Instant Pawn Shop. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Edward, I'm looking to learn more about your services."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Of course, Karen! May I ask for your full name to make our conversation smoother?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "My name is Karen Cook."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Karen! I appreciate that. Now, to help you better, could you please provide your date of birth?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's May fifteenth, nineteen eighty-five."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for that information, Karen. One more thing, could I have your zip code as well?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Absolutely, it is one zero two zero one."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great! Now, I want to assure you that your privacy is our top priority. All your personal information is kept secure."
+        },
+        {
+          "speaker": "Customer",
+          "message": "That's good to hear! I appreciate your commitment to privacy."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your time, Karen. If you have any more questions, feel free to reach out. Have a wonderful day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Edward Lewis and the customer's name is Karen Cook.  The conversation is about a random business (a Pawn Shop ) and is a conversation about privacy."
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "uuid": "0192b702-f80b-82fb-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-23T01:34:38.091215+00:00",
+  "parties": [
+    {
+      "tel": "+12051745382",
+      "mailto": "john.baker@autoinsurancecompany.com",
+      "name": "John Baker",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+12085058538",
+      "mailto": "martha.thomas@gmail.com",
+      "name": "Martha Thomas",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-23T01:34:37.851467",
+      "duration": 0.0,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "7f0a861c-7afc-41e1-a0b7-d760f275c733.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "iYQBUN55o522bWbPo3RwY5Z_hmKl84XEcnXms5eJeds=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "John Baker",
+        "customer_name": "Martha Thomas",
+        "business": "Auto Insurance Company",
+        "problem": "billing",
+        "emotion": "excited",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. Imagine that this conversation is over SMS messaging, not voice, and so make the dialogs of the vCon compatible with messaging.\n\nIn this conversation, the agent's name is John Baker and the customer's name is Martha Thomas.  The conversation is about Strolid Insurance Agency (a Auto Insurance Company ) and is a conversation about billing.The customer is feeling {emotion}.",
+        "created_on": "2024-10-23T01:34:38.091159",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "agent": "Hi there! This is John Baker from Strolid Insurance Agency. How can I assist you today?"
+        },
+        {
+          "customer": "Hi John, I have a question about my billing. I'm feeling quite frustrated."
+        },
+        {
+          "agent": "I\u2019m sorry to hear that, Martha. Can you please confirm your last name for me?"
+        },
+        {
+          "customer": "Sure, it's Thomas."
+        },
+        {
+          "agent": "Thank you, Martha Thomas! To get started, could you also provide me with your policy number?"
+        },
+        {
+          "customer": "It's one two three four five six."
+        },
+        {
+          "agent": "Got it! And just to verify, could you please provide your date of birth?"
+        },
+        {
+          "customer": "It's January first, nineteen eighty-five."
+        },
+        {
+          "agent": "Thank you for those details, Martha! I\u2019ll check your billing information now."
+        },
+        {
+          "customer": "Thanks, John. I just don't understand why my bill is higher this month."
+        },
+        {
+          "agent": "I understand your concern. Let me take a look at the charges and I'll get back to you shortly!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. Imagine that this conversation is over SMS messaging, not voice, and so make the dialogs of the vCon compatible with messaging.\n\nIn this conversation, the agent's name is John Baker and the customer's name is Martha Thomas.  The conversation is about Strolid Insurance Agency (a Auto Insurance Company ) and is a conversation about billing.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

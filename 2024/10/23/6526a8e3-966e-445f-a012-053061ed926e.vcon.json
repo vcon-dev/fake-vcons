@@ -1,0 +1,115 @@
+{
+  "uuid": "0192b705-ba04-82d9-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-23T01:37:38.820204+00:00",
+  "parties": [
+    {
+      "tel": "+11307755153",
+      "mailto": "ronald.jenkins@autoinsurancecompany.com",
+      "name": "Ronald Jenkins",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+16348778601",
+      "mailto": "andrea.price@gmail.com",
+      "name": "Andrea Price",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-23T01:37:38.568646",
+      "duration": 0.0,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "6526a8e3-966e-445f-a012-053061ed926e.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "iYQBUN55o522bWbPo3RwY5Z_hmKl84XEcnXms5eJeds=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Ronald Jenkins",
+        "customer_name": "Andrea Price",
+        "business": "Auto Insurance Company",
+        "problem": "billing",
+        "emotion": "relieved",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. Imagine that this conversation is over SMS messaging, not voice, and so make the dialogs of the vCon compatible with messaging. Make the dialog of type text, and have the complete conversation contained in it.\n\n\nIn this conversation, the agent's name is Ronald Jenkins and the customer's name is Andrea Price.  The conversation is about Strolid Insurance Agency (a Auto Insurance Company ) and is a conversation about billing.The customer is feeling {emotion}.",
+        "created_on": "2024-10-23T01:37:38.820137",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "sender": "agent",
+          "text": "Hi! This is Ronald Jenkins from Strolid Insurance Agency. How can I help you today?"
+        },
+        {
+          "sender": "customer",
+          "text": "Hi Ronald. I have a question about my billing."
+        },
+        {
+          "sender": "agent",
+          "text": "Of course, Andrea! May I have your full name to assist you better?"
+        },
+        {
+          "sender": "customer",
+          "text": "Sure, it's Andrea Price."
+        },
+        {
+          "sender": "agent",
+          "text": "Thank you, Andrea! Can you also provide me with your policy number, please?"
+        },
+        {
+          "sender": "customer",
+          "text": "My policy number is one two three four five six."
+        },
+        {
+          "sender": "agent",
+          "text": "Great! And could you also share your date of birth for verification?"
+        },
+        {
+          "sender": "customer",
+          "text": "Sure, it's January fifteenth, nineteen eighty-five."
+        },
+        {
+          "sender": "agent",
+          "text": "Thank you for that information, Andrea. I see your billing issue. I can help resolve it."
+        },
+        {
+          "sender": "customer",
+          "text": "Okay, thanks. I'm feeling a bit anxious about this."
+        },
+        {
+          "sender": "agent",
+          "text": "I understand, Andrea. Let's work together to clear this up quickly. What seems to be the issue?"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. Imagine that this conversation is over SMS messaging, not voice, and so make the dialogs of the vCon compatible with messaging. Make the dialog of type text, and have the complete conversation contained in it.\n\n\nIn this conversation, the agent's name is Ronald Jenkins and the customer's name is Andrea Price.  The conversation is about Strolid Insurance Agency (a Auto Insurance Company ) and is a conversation about billing.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

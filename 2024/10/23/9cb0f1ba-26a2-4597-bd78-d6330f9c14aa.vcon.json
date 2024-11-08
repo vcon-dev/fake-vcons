@@ -1,0 +1,171 @@
+{
+  "uuid": "0192bad4-4af3-8e9f-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-23T19:22:07.988018+00:00",
+  "parties": [
+    {
+      "tel": "+14766525834",
+      "mailto": "billy.gray@cardealership.com",
+      "name": "Billy Gray",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+16775465032",
+      "mailto": "denise.hughes@gmail.com",
+      "name": "Denise Hughes",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2024-10-23T12:22:07.987293",
+      "duration": 0,
+      "parties": [
+        0,
+        1
+      ],
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello, thank you for calling Vincenzo's Benzos. My name is Billy Gray. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Billy, I'm interested in knowing more about your car inventory."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I'd be happy to help with that. May I have your name, please?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my name is Denise Hughes."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Denise. Could you let me know which type of car you're interested in?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm looking for a sedan, preferably a recent model."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great choice. Do you have a specific budget in mind for the sedan?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, I'd like to stick around twenty five thousand dollars."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Understood. Also, would you be trading in a vehicle as part of your purchase?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I might, I have to decide on that but currently, I drive a 2015 model."
+        },
+        {
+          "speaker": "Agent",
+          "message": "That sounds perfect, Denise. Thank you for the information. I will gather some options for you. Is there anything else I can assist you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all for now. Thank you, Billy."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome, Denise. Thank you for reaching out to Vincenzo's Benzos. Have a wonderful day!"
+        }
+      ],
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Billy Gray",
+        "customer_name": "Denise Hughes",
+        "business": "Car Dealership",
+        "problem": "typical situation",
+        "emotion": "disappointed",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Billy Gray and the customer's name is Denise Hughes.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation.",
+        "created_on": "2024-10-23T12:22:07.987817",
+        "model": "gpt-4o"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello, thank you for calling Vincenzo's Benzos. My name is Billy Gray. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Billy, I'm interested in knowing more about your car inventory."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I'd be happy to help with that. May I have your name, please?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my name is Denise Hughes."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Denise. Could you let me know which type of car you're interested in?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm looking for a sedan, preferably a recent model."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great choice. Do you have a specific budget in mind for the sedan?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, I'd like to stick around twenty five thousand dollars."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Understood. Also, would you be trading in a vehicle as part of your purchase?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I might, I have to decide on that but currently, I drive a 2015 model."
+        },
+        {
+          "speaker": "Agent",
+          "message": "That sounds perfect, Denise. Thank you for the information. I will gather some options for you. Is there anything else I can assist you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all for now. Thank you, Billy."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome, Denise. Thank you for reaching out to Vincenzo's Benzos. Have a wonderful day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Billy Gray and the customer's name is Denise Hughes.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "uuid": "0192a997-185c-8050-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-20T11:01:44.668063+00:00",
+  "parties": [
+    {
+      "tel": "+12734255864",
+      "mailto": "nicholas.hill@pickrandombusinesstype.com",
+      "name": "Nicholas Hill",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+16157744234",
+      "mailto": "jessica.barnes@gmail.com",
+      "name": "Jessica Barnes",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-20T11:01:43.956136",
+      "duration": 161.832,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "db344b2b-5b1e-49db-a613-a60dc7e6543f.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "6XYiDG_lCHqqpjnvINUttKBl0sTyCY8P_zwqP3Gq59g=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Nicholas Hill",
+        "customer_name": "Jessica Barnes",
+        "business": "Bicycle Shop",
+        "problem": "customer service",
+        "emotion": "sad",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 40 exchanges long, be natural, rich in detail, and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Nicholas Hill and the customer's name is Jessica Barnes.  The conversation is about a random business (a Bicycle Shop ) and is a conversation about customer service.The customer is feeling {emotion}.",
+        "created_on": "2024-10-20T11:01:44.667975",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Thank you for contacting Bicycle Haven. My name is Nicholas Hill, and I'm here to help you today."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi, Nicholas! I'm Jessica Barnes."
+        },
+        {
+          "speaker": "Agent",
+          "message": "It's nice to meet you, Jessica! How can I assist you with your bicycle needs today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Well, I'm actually feeling a bit frustrated."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I'm really sorry to hear that you're feeling frustrated. Can you tell me what seems to be the problem?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I just bought a bike from your shop a couple of weeks ago and it has started making a strange noise."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I understand how concerning that can be. Could you please describe the noise you're hearing?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "It sounds like a squeaking noise when I pedal."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Got it. A squeaking noise when pedaling can sometimes indicate that there is an issue with the chain or the gears. Have you had a chance to take a look at the chain?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I haven't really checked it. I just assumed it was a defect."
+        },
+        {
+          "speaker": "Agent",
+          "message": "That\u2019s completely understandable. Can you tell me when you purchased the bicycle?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I bought it on September fifteenth."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for that information, Jessica. And could I also get the serial number of your bicycle? It will help us look up your purchase details."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, the serial number is one two three four five six."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for that! Let me check our records quickly... Okay, I see your purchase here. It seems you bought a Mountain Rider model."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, that's right! I really liked it at first."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I\u2019m glad to hear that! Sometimes, noise issues can arise if the bike hasn't been serviced regularly. Have you had any maintenance done since you bought it?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, I haven't had any maintenance done yet."
+        },
+        {
+          "speaker": "Agent",
+          "message": "That would be a good next step. I recommend bringing it in for a tune-up. Our service department can check the chain, gears, and brakes to ensure everything is running smoothly."
+        },
+        {
+          "speaker": "Customer",
+          "message": "That sounds like a plan! How long does a tune-up usually take?"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Typically, a full tune-up takes about one to two hours, depending on the workload we have in the shop that day."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Great, that\u2019s not too long! Is there a cost associated with it?"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Yes, a standard tune-up costs ninety-nine dollars. This includes adjusting the gears, brakes, and lubrication of the chain."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Okay, that seems fair."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Would you like to schedule an appointment for the tune-up?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, that would be great! When can I bring it in?"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Let me check our schedule... We have openings tomorrow and Friday afternoon if that works for you."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Tomorrow would be perfect."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Fantastic! What time would you like to come in?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "How about ten o'clock in the morning?"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Ten o'clock is confirmed! We will see you then, Jessica."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Thanks, Nicholas! You've been really helpful."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome! I\u2019m glad I could assist you. Is there anything else I can help you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that covers everything. Thank you!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your time, Jessica! We look forward to seeing you tomorrow at ten. Have a great rest of your day!"
+        },
+        {
+          "speaker": "Customer",
+          "message": "You too, Nicholas! Bye!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Goodbye!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 40 exchanges long, be natural, rich in detail, and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Nicholas Hill and the customer's name is Jessica Barnes.  The conversation is about a random business (a Bicycle Shop ) and is a conversation about customer service.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

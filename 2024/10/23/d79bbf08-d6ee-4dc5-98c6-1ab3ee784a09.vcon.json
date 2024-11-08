@@ -1,0 +1,155 @@
+{
+  "uuid": "0192bad4-c9d2-8bca-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-23T19:22:40.466783+00:00",
+  "parties": [
+    {
+      "tel": "+15889734495",
+      "mailto": "mark.davis@cardealership.com",
+      "name": "Mark Davis",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+13439473548",
+      "mailto": "christina.adams@gmail.com",
+      "name": "Christina Adams",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2024-10-23T12:22:40.466357",
+      "duration": 0,
+      "parties": [
+        0,
+        1
+      ],
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Thank you for calling Vincenzo's Benzos. My name is Mark Davis. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Mark! My name is Christina Adams. I'm interested in learning more about the cars you have available."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Christina! We have a wide range of vehicles. To better assist you, could you please let me know what type of car you're looking for?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm looking for a sedan with good fuel efficiency and modern features."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great choice! We have several models that fit that description. Can I ask for your contact number in case we get disconnected?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's five five five, one two three, four five six seven."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Christina. And do you have a budget range in mind so I can suggest the most suitable options for you?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, I'm looking to stay within the range of two zero thousand to three zero thousand dollars."
+        },
+        {
+          "speaker": "Agent",
+          "message": "That helps a lot. We have several vehicles within that price range that I believe you'll love. Would you like to schedule a test drive?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, that would be great. Let's set up a time."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Perfect! I'll arrange everything for you. Thank you for your time, Christina. We look forward to seeing you soon!"
+        }
+      ],
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Mark Davis",
+        "customer_name": "Christina Adams",
+        "business": "Car Dealership",
+        "problem": "typical situation",
+        "emotion": "excited",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Mark Davis and the customer's name is Christina Adams.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation.",
+        "created_on": "2024-10-23T12:22:40.466695",
+        "model": "gpt-4o"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Thank you for calling Vincenzo's Benzos. My name is Mark Davis. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Mark! My name is Christina Adams. I'm interested in learning more about the cars you have available."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Christina! We have a wide range of vehicles. To better assist you, could you please let me know what type of car you're looking for?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm looking for a sedan with good fuel efficiency and modern features."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great choice! We have several models that fit that description. Can I ask for your contact number in case we get disconnected?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's five five five, one two three, four five six seven."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Christina. And do you have a budget range in mind so I can suggest the most suitable options for you?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, I'm looking to stay within the range of two zero thousand to three zero thousand dollars."
+        },
+        {
+          "speaker": "Agent",
+          "message": "That helps a lot. We have several vehicles within that price range that I believe you'll love. Would you like to schedule a test drive?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, that would be great. Let's set up a time."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Perfect! I'll arrange everything for you. Thank you for your time, Christina. We look forward to seeing you soon!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Mark Davis and the customer's name is Christina Adams.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation."
+      }
+    }
+  ]
+}

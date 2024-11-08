@@ -1,0 +1,147 @@
+{
+  "uuid": "0192bac7-d89f-8e31-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-23T19:08:32.288006+00:00",
+  "parties": [
+    {
+      "tel": "+14995297283",
+      "mailto": "arthur.davis@cardealership.com",
+      "name": "Arthur Davis",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+18706642977",
+      "mailto": "madison.hughes@gmail.com",
+      "name": "Madison Hughes",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2024-10-23T12:08:32.285264",
+      "duration": 0,
+      "parties": [
+        0,
+        1
+      ],
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Welcome to Vincenzo's Benzos, where your dream car awaits. My name is Arthur Davis. May I know your name, please?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Arthur, my name is Madison Hughes."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Madison! How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm interested in learning more about the financing options available for a new car."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Certainly! I can provide you with more details on that. Could you please tell me your zip code?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my zip code is nine eight one zero one."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Madison. One more thing, could you please provide me with your preferred contact number?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, it's two zero six five five five one two three four."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great! I've got all the information I need. Thank you for sharing. I'll now prepare the options and get back to you very soon."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you so much for your time, Madison. If you have any more questions, feel free to reach out. Have a great day!"
+        }
+      ],
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Arthur Davis",
+        "customer_name": "Madison Hughes",
+        "business": "Car Dealership",
+        "problem": "typical situation",
+        "emotion": "excited",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Arthur Davis and the customer's name is Madison Hughes.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation.",
+        "created_on": "2024-10-23T12:08:32.287776",
+        "model": "gpt-4o"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Welcome to Vincenzo's Benzos, where your dream car awaits. My name is Arthur Davis. May I know your name, please?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Arthur, my name is Madison Hughes."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Madison! How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm interested in learning more about the financing options available for a new car."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Certainly! I can provide you with more details on that. Could you please tell me your zip code?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my zip code is nine eight one zero one."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Madison. One more thing, could you please provide me with your preferred contact number?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, it's two zero six five five five one two three four."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great! I've got all the information I need. Thank you for sharing. I'll now prepare the options and get back to you very soon."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you so much for your time, Madison. If you have any more questions, feel free to reach out. Have a great day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Arthur Davis and the customer's name is Madison Hughes.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation."
+      }
+    }
+  ]
+}

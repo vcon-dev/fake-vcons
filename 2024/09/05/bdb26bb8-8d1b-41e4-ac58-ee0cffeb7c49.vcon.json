@@ -1,0 +1,123 @@
+{
+  "uuid": "0191c419-8202-87a5-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-09-05T21:31:31.714514+00:00",
+  "parties": [
+    {
+      "tel": "+19610514078",
+      "mailto": "donald.baker@brokeragecompany.com",
+      "name": "Donald Baker",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+11954284880",
+      "mailto": "betty.collins@gmail.com",
+      "name": "Betty Collins",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-09-05T17:31:31.341090",
+      "duration": 45.024,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "bdb26bb8-8d1b-41e4-ac58-ee0cffeb7c49.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "ZFcEpZYkLtKkPBWTQ4J-tl0yHC_DEu64j2DXbQr0tlU=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Donald Baker",
+        "customer_name": "Betty Collins",
+        "business": "Brokerage Company",
+        "problem": "privacy",
+        "emotion": "angry",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Donald Baker and the customer's name is Betty Collins.  The conversation is about Old Stone Stocks (a Brokerage Company ) and is a conversation about privacy.",
+        "created_on": "2024-09-05T17:31:31.714429",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! My name is Jessica, and I\u2019m a customer service representative with BrightWave Solutions."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Jessica, nice to meet you."
+        },
+        {
+          "speaker": "Agent",
+          "message": "It's great to meet you too! May I ask, what is your name?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "My name is Alex."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Alex! How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I have a question about my recent order."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Of course! Can you please provide me with the order number?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, it\u2019s one two three four five."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you! One two three four five. And could you also share your email address for verification?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's alex.smith@email.com."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Alex! I appreciate your help. Is there anything else I can assist you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that\u2019s all for now."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your time, Alex! If you have any more questions in the future, feel free to reach out. Have a wonderful day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Donald Baker and the customer's name is Betty Collins.  The conversation is about Old Stone Stocks (a Brokerage Company ) and is a conversation about privacy."
+      }
+    }
+  ]
+}

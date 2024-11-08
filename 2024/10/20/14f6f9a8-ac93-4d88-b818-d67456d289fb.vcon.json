@@ -1,0 +1,239 @@
+{
+  "uuid": "0192a9a0-a4aa-89b0-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-20T11:12:10.410646+00:00",
+  "parties": [
+    {
+      "tel": "+18345295842",
+      "mailto": "larry.williams@carrentalagency.com",
+      "name": "Larry Williams",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+13220814386",
+      "mailto": "jessica.parker@gmail.com",
+      "name": "Jessica Parker",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-20T11:12:09.699325",
+      "duration": 168.936,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "14f6f9a8-ac93-4d88-b818-d67456d289fb.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "_N-YBlJT_xE6IU_cfv6Y5fEsBTzAXM1QxlEEQTnIbH4=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Larry Williams",
+        "customer_name": "Jessica Parker",
+        "business": "Car Rental Agency",
+        "problem": "customer service",
+        "emotion": "excited",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 40 exchanges long, be natural, rich in detail, and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Larry Williams and the customer's name is Jessica Parker.  The conversation is about MetaCar (a Car Rental Agency ) and is a conversation about customer service.The customer is feeling {emotion}.",
+        "created_on": "2024-10-20T11:12:10.410547",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Thank you for calling MetaCar. My name is Larry Williams, and I'm here to assist you today."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Larry! I'm Jessica Parker."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great to meet you, Jessica! How can I help you with your car rental needs today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm actually trying to book a car for my trip next week."
+        },
+        {
+          "speaker": "Agent",
+          "message": "That sounds exciting! Can you please tell me the dates you'll need the car?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I need it from Monday, the tenth of July, until Friday, the fourteenth."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Got it! So you\u2019ll need it starting on July tenth through July fourteenth. Where will you be picking up the car?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'll be picking it up at the airport."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Perfect! Which airport will you be arriving at?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'll be landing at Los Angeles International Airport."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thanks, Jessica! Just to confirm, is this your first time renting a car with us?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, it is."
+        },
+        {
+          "speaker": "Agent",
+          "message": "No problem at all! We\u2019re here to make the process as smooth as possible. Are you looking for a specific type of vehicle?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I\u2019d like a midsize sedan, if possible."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Sure! Midsize sedans are a popular choice. Can you provide me with your driver's license number for verification?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, my driver\u2019s license number is one two three four five six seven."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for that. And can I also have your email address to send the booking confirmation?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Of course! It's jessica.parker@gmail.com."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Jessica. You\u2019re doing great! Now let's talk about payment. What form of payment will you be using?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'll be using my credit card."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Excellent! Just to let you know, we accept Visa, MasterCard, American Express, and Discover."
+        },
+        {
+          "speaker": "Customer",
+          "message": "I have a Visa card."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Perfect! Now, I also need the card number to finalize the booking."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure! The number is four five three two three four eight seven six one zero."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you so much for that! Is there anything else you'd like to add to your rental, like insurance coverage?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, I\u2019d like to add insurance for peace of mind."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great choice, Jessica! Insurance will definitely give you extra security. Do you have a preference for additional services, like GPS or child seats?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I might need a GPS since I'm not familiar with the area."
+        },
+        {
+          "speaker": "Agent",
+          "message": "No problem! I\u2019ll include a GPS in your booking. Is there anything else you would like to change or add?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, I think that covers everything."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Wonderful! Let me quickly summarize your reservation: You\u2019ll be picking up a midsize sedan at Los Angeles International Airport from July tenth to July fourteenth. You\u2019re adding insurance and a GPS."
+        },
+        {
+          "speaker": "Customer",
+          "message": "That\u2019s correct!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Awesome! And to confirm your payment, I will process the credit card now."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Okay, sounds good."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Just one moment while I finalize the details."
+        },
+        {
+          "speaker": "Agent",
+          "message": "All set! You are confirmed for your rental. You will receive a confirmation email shortly."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Thank you so much, Larry! You've been really helpful."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're very welcome, Jessica! I'm glad I could assist you today. Is there anything else I can do for you before we wrap up?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, I think I'm all set. Thanks again!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your time, Jessica. Have a fantastic trip!"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I will! Bye!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Goodbye!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 40 exchanges long, be natural, rich in detail, and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Larry Williams and the customer's name is Jessica Parker.  The conversation is about MetaCar (a Car Rental Agency ) and is a conversation about customer service.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "uuid": "e2f0fe01-0075-49ac-8413-c9d2a8b21362",
+  "vcon": "0.0.1",
+  "created_at": "2024-05-17T15:26:08.074595",
+  "updated_at": "2024-05-17T15:26:08.074595",
+  "dialog": [
+    {
+      "alg": "SHA-512",
+      "url": "https://fake-vcons.s3.amazonaws.com/2024/05/17/e2f0fe01-0075-49ac-8413-c9d2a8b21362.mp3",
+      "meta": {
+        "direction": "in",
+        "disposition": "ANSWERED"
+      },
+      "type": "recording",
+      "start": "2024-05-17T15:26:08.074562",
+      "parties": [
+        1,
+        0
+      ],
+      "duration": 70.392,
+      "filename": "e2f0fe01-0075-49ac-8413-c9d2a8b21362.mp3",
+      "mimetype": "audio/mp3",
+      "signature": "WxwvtAnlDHGilzw4lDpIboallJ1S7wz5ufPDpiqyFkj-BwCMM4BCAKuhtH_0laFKbQNiBbaLY25rRq1E7cOhoA"
+    }
+  ],
+  "parties": [
+    {
+      "tel": "+17432608390",
+      "meta": {
+        "role": "agent"
+      },
+      "name": "Roy Mitchell",
+      "mailto": "roy.mitchell@restaurant.com"
+    },
+    {
+      "tel": "+17928011118",
+      "meta": {
+        "role": "customer"
+      },
+      "name": "Janice Diaz",
+      "email": "janice.diaz@gmail.com"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "encoding": "none",
+      "body": {
+        "agent_name": "Roy Mitchell",
+        "customer_name": "Janice Diaz",
+        "business": "Restaurant",
+        "problem": "inventory",
+        "emotion": "confused",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n",
+        "created_on": "2024-05-17T15:26:08.074587",
+        "model": "gpt-4o"
+      }
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": 0,
+      "vendor": "openai",
+      "encoding": "none",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello, thank you for calling FoodSupply Solutions. My name is Roy Mitchell. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi, I'm having an issue with our restaurant inventory, and I'm not sure what to do."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I'm sorry to hear that. Can I have your name, please?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's Janice Diaz."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Janice. What specific inventory issue are you experiencing?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm not able to reconcile the amounts in our inventory system with what we actually have on hand."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I understand, that sounds confusing. Could I get your restaurant's ID number to look into the system for you?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, it's one two three four."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Janice. Also, can you provide me with the date when you last updated the inventory?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "It was last updated on October fifteen."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Got it. I will look into this issue for you now. Thank you for providing the details. Please hold on for a moment."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, I'll wait."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your patience, Janice. I've identified the issue and will make the necessary corrections. You should see the updates within the next few hours."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Thank you, Roy. That really helps."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome, Janice. Thank you for your time. If you have any more questions, feel free to call us again. Have a great day!"
+        },
+        {
+          "speaker": "Customer",
+          "message": "You too, Roy. Bye."
+        }
+      ],
+      "vendor_schema": {
+        "model": "gpt-4o",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n"
+      }
+    }
+  ]
+}

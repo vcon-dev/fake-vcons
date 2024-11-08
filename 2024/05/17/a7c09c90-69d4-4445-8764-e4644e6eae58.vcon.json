@@ -1,0 +1,126 @@
+{
+  "uuid": "a7c09c90-69d4-4445-8764-e4644e6eae58",
+  "vcon": "0.0.1",
+  "created_at": "2024-05-17T17:47:50.494099",
+  "updated_at": "2024-05-17T17:47:50.494099",
+  "dialog": [
+    {
+      "alg": "SHA-512",
+      "url": "https://fake-vcons.s3.amazonaws.com/2024/05/17/a7c09c90-69d4-4445-8764-e4644e6eae58.mp3",
+      "meta": {
+        "direction": "in",
+        "disposition": "ANSWERED"
+      },
+      "type": "recording",
+      "start": "2024-05-17T17:47:50.494063",
+      "parties": [
+        1,
+        0
+      ],
+      "duration": 44.256,
+      "filename": "a7c09c90-69d4-4445-8764-e4644e6eae58.mp3",
+      "mimetype": "audio/mp3",
+      "signature": "6s9V57nf5SkmgT53dG_TS-D_fYX-8U40ZkDPWJCJuMHa3NqXaL68zslL2WZVvucijlpCNKNdLF2wHzM0LAVo1g"
+    }
+  ],
+  "parties": [
+    {
+      "tel": "+11037259329",
+      "meta": {
+        "role": "agent"
+      },
+      "name": "Richard Gonzalez",
+      "mailto": "richard.gonzalez@autorepairshop.com"
+    },
+    {
+      "tel": "+18850201146",
+      "meta": {
+        "role": "customer"
+      },
+      "name": "Rose Lewis",
+      "email": "rose.lewis@gmail.com"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "encoding": "none",
+      "body": {
+        "agent_name": "Richard Gonzalez",
+        "customer_name": "Rose Lewis",
+        "business": "Auto Repair Shop",
+        "problem": "billing",
+        "emotion": "confused",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Richard Gonzalez and the customer's name is Rose Lewis.  The conversation is about a random business (a Auto Repair Shop ) and is a conversation about billing.The customer is feeling {emotion}.",
+        "created_on": "2024-05-17T17:47:50.494090",
+        "model": "gpt-4o"
+      }
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": 0,
+      "vendor": "openai",
+      "encoding": "none",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Thank you for calling Nimbus Solutions. My name is John. May I have your name, please?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi John, this is Sarah."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Sarah. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm having trouble accessing my account."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I can help you with that. Could you please provide your account number?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's F three-two-one-four zero-seven."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Sarah. Could you also please confirm the last four digits of your Social Security number?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "It's six-seven-eight-nine."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Got it, Sarah. I have successfully verified your account. I will now proceed to reset your access."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Thank you, John."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome, Sarah. Your account access has been restored. Is there anything else I can assist you with?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all. Thanks again."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your time, Sarah. Have a great day!"
+        }
+      ],
+      "vendor_schema": {
+        "model": "gpt-4o",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Richard Gonzalez and the customer's name is Rose Lewis.  The conversation is about a random business (a Auto Repair Shop ) and is a conversation about billing.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

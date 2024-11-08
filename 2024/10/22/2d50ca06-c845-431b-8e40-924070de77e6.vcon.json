@@ -1,0 +1,119 @@
+{
+  "uuid": "0192b712-3f02-84dd-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-23T01:51:19.298335+00:00",
+  "parties": [
+    {
+      "tel": "+19237080392",
+      "mailto": "daniel.sanders@pickrandombusinesstype.com",
+      "name": "Daniel Sanders",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+13220302136",
+      "mailto": "janice.price@gmail.com",
+      "name": "Janice Price",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-22T21:51:18.877009",
+      "duration": 66.672,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "2d50ca06-c845-431b-8e40-924070de77e6.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "qjL0-vhPNsDxTnpVEbMV_nZZXxwQP5Int8hvaxUICS4=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Daniel Sanders",
+        "customer_name": "Janice Price",
+        "business": "Daycare Center",
+        "problem": "billing",
+        "emotion": "sad",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Daniel Sanders and the customer's name is Janice Price.  The conversation is about a random business (a Daycare Center ) and is a conversation about billing. The conversation will be synthesized using the tts-1 TTS model.",
+        "created_on": "2024-10-22T21:51:19.298259",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello, my name is Daniel Sanders, and I am with Sunshine Daycare Center. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Daniel, I'm Janice Price. I have a question about my bill."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Janice! I'd be happy to help with your billing question. Could you please confirm your child's name for me?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my child's name is Emily Price."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Janice. And can you also provide the last four digits of your phone number?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Of course, the last four digits are five six seven eight."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Got it! Now, regarding your billing inquiry, could you please let me know the month for which you have questions?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "It's for the month of March."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for that information, Janice. I see that there was a charge of one hundred twenty-five dollars for Emily's tuition in March. Is that the amount you're inquiring about?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, that seems higher than what I was expecting."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I understand your concern, Janice. Let me check to see if there were any additional fees or changes to the usual rate. Thank you for your patience."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I appreciate your time today, Janice. If you have any more questions, feel free to reach out. Have a great day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Daniel Sanders and the customer's name is Janice Price.  The conversation is about a random business (a Daycare Center ) and is a conversation about billing. The conversation will be synthesized using the tts-1 TTS model."
+      }
+    }
+  ]
+}

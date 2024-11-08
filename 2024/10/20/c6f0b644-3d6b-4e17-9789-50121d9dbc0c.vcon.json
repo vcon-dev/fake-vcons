@@ -1,0 +1,179 @@
+{
+  "uuid": "0192a992-ec4e-8364-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-20T10:57:11.246255+00:00",
+  "parties": [
+    {
+      "tel": "+13420576680",
+      "mailto": "wayne.russell@pickrandombusinesstype.com",
+      "name": "Wayne Russell",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+11597547847",
+      "mailto": "joan.kelly@gmail.com",
+      "name": "Joan Kelly",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-20T10:57:10.560986",
+      "duration": 129.912,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "c6f0b644-3d6b-4e17-9789-50121d9dbc0c.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "76gXC4yqouEWHbIpM7SVtjLnDnjghNHJkYGsUl7wnkQ=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Wayne Russell",
+        "customer_name": "Joan Kelly",
+        "business": "Hardware Store",
+        "problem": "customer service",
+        "emotion": "nervous",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 40 lines long, be natural, rich in detail and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Wayne Russell and the customer's name is Joan Kelly.  The conversation is about a random business (a Hardware Store ) and is a conversation about customer service.The customer is feeling {emotion}.",
+        "created_on": "2024-10-20T10:57:11.246166",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Thank you for calling Hardware Haven. My name is Wayne Russell, and I'm here to help you today."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Wayne, I\u2019m Joan Kelly."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Joan! How can I assist you with your hardware needs today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm looking for some replacement parts for my leaky faucet."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I can definitely help with that. Do you know the brand and model of your faucet?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, it\u2019s a Delta faucet, model number one two three four."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great! Thank you for that information. Do you have a specific part in mind, or do you need some suggestions?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I think I need a new cartridge, but I\u2019m not entirely sure."
+        },
+        {
+          "speaker": "Agent",
+          "message": "No problem, Joan. I can help you find the correct cartridge. Can you provide me with your address? It will help us check our inventory for you."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure! It\u2019s one hundred and twenty-three Elm Street."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you! And if you don\u2019t mind, can I also get your phone number, just to keep you updated about your order?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Of course! It\u2019s four hundred and thirty-two, five hundred and sixty-seven, eight hundred and ninety-one zero."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for that, Joan! I\u2019ll make sure to keep you posted. Now, let me look up the cartridge for your Delta faucet model one two three four."
+        },
+        {
+          "speaker": "Customer",
+          "message": "I really appreciate your help, Wayne. This leak has been stressing me out."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I completely understand, Joan. A leaky faucet can be quite bothersome. We\u2019ll get this resolved for you as soon as possible."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Thank you! It\u2019s nice to talk to someone who understands."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Absolutely! Customer satisfaction is our top priority. I\u2019ve found the cartridge you need. It's currently in stock."
+        },
+        {
+          "speaker": "Customer",
+          "message": "That\u2019s fantastic news! How much does it cost?"
+        },
+        {
+          "speaker": "Agent",
+          "message": "The cartridge costs twenty-nine dollars and ninety-nine cents. Would you like me to place an order for you?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, please! That would be great."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Perfect! I\u2019ll process that order right now. You can expect it to be delivered to your address within three to five business days."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sounds good! Thank you for your help, Wayne."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome, Joan! Is there anything else I can assist you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's everything. I feel relieved knowing that the part is coming."
+        },
+        {
+          "speaker": "Agent",
+          "message": "That\u2019s wonderful to hear! Thank you so much for your time, Joan. If you need anything else, don\u2019t hesitate to reach out."
+        },
+        {
+          "speaker": "Customer",
+          "message": "I will. Thanks again, Wayne!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Joan! Have a great day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 40 lines long, be natural, rich in detail and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Wayne Russell and the customer's name is Joan Kelly.  The conversation is about a random business (a Hardware Store ) and is a conversation about customer service.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

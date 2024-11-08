@@ -1,0 +1,118 @@
+{
+  "uuid": "3dc6273f-c556-4824-8133-b61f52698bb2",
+  "vcon": "0.0.1",
+  "created_at": "2024-05-17T12:06:04.193308",
+  "updated_at": "2024-05-17T12:06:04.193308",
+  "dialog": [
+    {
+      "alg": "SHA-512",
+      "url": "https://fake-vcons.s3.amazonaws.com/2024/05/17/3dc6273f-c556-4824-8133-b61f52698bb2.mp3",
+      "meta": {
+        "direction": "in",
+        "disposition": "ANSWERED"
+      },
+      "type": "recording",
+      "start": "2024-05-17T12:06:04.193154",
+      "parties": [
+        1,
+        0
+      ],
+      "duration": 66.48,
+      "filename": "3dc6273f-c556-4824-8133-b61f52698bb2.mp3",
+      "mimetype": "audio/mp3",
+      "signature": "KX3-xAdgMx2Yia5iHRIF1EtYBSCjpCGW4Hl8YAwtYr9BbzfRloIQMyjBFlsqB69AgTh2bmVKLygtM7Q5Ofnc3g"
+    }
+  ],
+  "parties": [
+    {
+      "tel": "+14423820082",
+      "meta": {
+        "role": "agent"
+      },
+      "name": "Dylan Martin",
+      "mailto": "dylan.martin@accountingfirm.com"
+    },
+    {
+      "tel": "+14115808431",
+      "meta": {
+        "role": "customer"
+      },
+      "name": "Diana Parker",
+      "email": "diana.parker@gmail.com"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "encoding": "none",
+      "body": {
+        "agent_name": "Dylan Martin",
+        "customer_name": "Diana Parker",
+        "business": "Accounting Firm",
+        "problem": "product quality",
+        "emotion": "disappointed",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n",
+        "created_on": "2024-05-17T12:06:04.193284",
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": 0,
+      "vendor": "openai",
+      "encoding": "none",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello, thank you for contacting Count On Us, an accounting firm. My name is Dylan Martin. May I please have your name?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi, my name is Diana Parker."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Diana. Can you kindly provide me with your email address and phone number for our records?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my email is diana.parker@email.com and my phone number is five five five - three two one - zero zero nine nine."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Diana. I have noted your email as diana.parker@email.com and phone number as five five five - three two one - zero zero nine nine. Is there anything specific you'd like assistance with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm feeling disappointed with the quality of service provided recently."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I apologize for your experience, Diana. We value your feedback and will make sure to address this issue promptly. Your satisfaction is important to us."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Thank you for understanding."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for bringing this to our attention, Diana. We appreciate your time and will work on improving our services. Is there anything else I can assist you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all for now. Thank you."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome, Diana. Thank you for reaching out to us. Have a wonderful day! Goodbye."
+        }
+      ],
+      "vendor_schema": {
+        "model": "gpt-3.5-turbo",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n"
+      }
+    }
+  ]
+}

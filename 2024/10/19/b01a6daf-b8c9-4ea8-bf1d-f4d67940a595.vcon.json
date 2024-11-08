@@ -1,0 +1,119 @@
+{
+  "uuid": "0192a376-8ac1-82b3-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-19T06:28:27.969200+00:00",
+  "parties": [
+    {
+      "tel": "+17370784394",
+      "mailto": "christopher.wilson@accountingfirm.com",
+      "name": "Christopher Wilson",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+12711574077",
+      "mailto": "samantha.king@gmail.com",
+      "name": "Samantha King",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-19T06:28:27.459017",
+      "duration": 52.248,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "b01a6daf-b8c9-4ea8-bf1d-f4d67940a595.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "mF__6DrRSAKMpkyJvrYo1ZOERsrOrEQZyX1J0juSlkE=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Christopher Wilson",
+        "customer_name": "Samantha King",
+        "business": "Accounting Firm",
+        "problem": "billing",
+        "emotion": "frustrated",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Christopher Wilson and the customer's name is Samantha King.  The conversation is about Accounting Eagles (a Accounting Firm ) and is a conversation about billing.The customer is feeling {emotion}.",
+        "created_on": "2024-10-19T06:28:27.969136",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! My name is Christopher Wilson, and I am with Accounting Eagles. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi, Christopher. I have some questions about my billing statements."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Of course, Samantha! I'm here to help. May I ask for your last name for verification purposes?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's King."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Samantha King. Could you please provide me with your account number?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "My account number is one two three four five."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Got it! And lastly, could you please confirm your date of birth for further verification?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "It's April fifteenth, nineteen eighty-five."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for that information, Samantha. Let me pull up your billing records now."
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm really just feeling confused about the recent charges."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I understand, and I'm here to clarify everything for you. Just a moment while I review the details."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your patience, and I appreciate you taking the time to discuss this with me today, Samantha."
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Christopher Wilson and the customer's name is Samantha King.  The conversation is about Accounting Eagles (a Accounting Firm ) and is a conversation about billing.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

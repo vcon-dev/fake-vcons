@@ -1,0 +1,131 @@
+{
+  "uuid": "0192a661-7575-8b45-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-19T20:04:17.909743+00:00",
+  "parties": [
+    {
+      "tel": "+16558117343",
+      "mailto": "jeffrey.barnes@bakery.com",
+      "name": "Jeffrey Barnes",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+18923291537",
+      "mailto": "janice.morris@gmail.com",
+      "name": "Janice Morris",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-19T20:04:17.317111",
+      "duration": 58.56,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "f0333470-98de-4fc8-85be-72936b5cbb5f.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "RPJJtMSMu_YVIoaFBMbMdbThqLuNnqlfsaPMM9Q8U08=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Jeffrey Barnes",
+        "customer_name": "Janice Morris",
+        "business": "Bakery",
+        "problem": "pricing",
+        "emotion": "relieved",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Jeffrey Barnes and the customer's name is Janice Morris.  The conversation is about Baking Bread (a Bakery ) and is a conversation about pricing.The customer is feeling {emotion}.",
+        "created_on": "2024-10-19T20:04:17.909664",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! My name is Jeffrey Barnes, and I am with Baking Bread, your local bakery for all things delicious."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Jeffrey, nice to meet you."
+        },
+        {
+          "speaker": "Agent",
+          "message": "It's great to meet you too, Janice! May I have your last name to better assist you?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's Morris."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Janice Morris. What can I help you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I was wondering about your pricing for your artisan bread."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Our artisan bread is priced at three dollars and fifty cents per loaf. Would you like to know about any specific types?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, do you have sourdough options?"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Absolutely! Our sourdough is priced at four dollars each. Can I also get your zip code to provide you with any local delivery options?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's one two three four five."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you! And may I also have your phone number for any follow-ups?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "It's three zero three, five six seven, eight nine zero."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for that, Janice. I appreciate your time today. Is there anything else I can assist you with?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all for now. Thanks!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome! Thank you for reaching out to Baking Bread. Have a wonderful day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Jeffrey Barnes and the customer's name is Janice Morris.  The conversation is about Baking Bread (a Bakery ) and is a conversation about pricing.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

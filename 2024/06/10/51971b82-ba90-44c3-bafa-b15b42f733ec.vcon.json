@@ -1,0 +1,122 @@
+{
+  "uuid": "51971b82-ba90-44c3-bafa-b15b42f733ec",
+  "vcon": "0.0.1",
+  "created_at": "2024-06-10T21:17:39.463909",
+  "updated_at": "2024-06-10T21:17:39.463909",
+  "dialog": [
+    {
+      "alg": "SHA-512",
+      "url": "https://fake-vcons.s3.amazonaws.com/2024/06/10/51971b82-ba90-44c3-bafa-b15b42f733ec.mp3",
+      "meta": {
+        "direction": "in",
+        "disposition": "ANSWERED"
+      },
+      "type": "recording",
+      "start": "2024-06-10T21:17:39.463885",
+      "parties": [
+        1,
+        0
+      ],
+      "duration": 48.216,
+      "filename": "51971b82-ba90-44c3-bafa-b15b42f733ec.mp3",
+      "mimetype": "audio/mp3",
+      "signature": "HNM9yo02Mnob3JDMas_oVQ34jLZ_utzaQ8wcIRhPT0OW9REuxx1tOX5tnFqziIFb_L8J00qatQHDdPD7aCE8-Q"
+    }
+  ],
+  "parties": [
+    {
+      "tel": "+14193701646",
+      "meta": {
+        "role": "agent"
+      },
+      "name": "Joe Ramirez",
+      "mailto": "joe.ramirez@animalshelter.com"
+    },
+    {
+      "tel": "+16458574223",
+      "meta": {
+        "role": "customer"
+      },
+      "name": "Christine Long",
+      "email": "christine.long@gmail.com"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "encoding": "none",
+      "body": {
+        "agent_name": "Joe Ramirez",
+        "customer_name": "Christine Long",
+        "business": "Animal Shelter",
+        "problem": "typical situation",
+        "emotion": "happy",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Joe Ramirez and the customer's name is Christine Long.  The conversation is about Happy Animal Shelter (a Animal Shelter ) and is a conversation about typical situation.The customer is feeling {emotion}.",
+        "created_on": "2024-06-10T21:17:39.463903",
+        "model": "gpt-4o"
+      }
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": 0,
+      "vendor": "openai",
+      "encoding": "none",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! Thank you for calling ABC Customer Service. My name is John. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi John, I need some help with my recent order."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I\u2019m happy to help with that. May I have your name, please?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my name is Emily."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Emily. Could you please provide me with your order number?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, it's one two three four five six."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Got it. For verification purposes, could you also share your email address associated with the order?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "My email is emily.smith@example.com."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for the information, Emily. I will look into your order details now."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Alright, Emily, I have all the details I need. Thank you for your patience. Is there anything else I can assist you with?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all I needed. Thank you for your help, John."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome, Emily. Thank you for your time today. Have a great day!"
+        }
+      ],
+      "vendor_schema": {
+        "model": "gpt-4o",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Joe Ramirez and the customer's name is Christine Long.  The conversation is about Happy Animal Shelter (a Animal Shelter ) and is a conversation about typical situation.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

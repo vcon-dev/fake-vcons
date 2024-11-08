@@ -1,0 +1,115 @@
+{
+  "uuid": "01929ad0-3aea-8121-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-17T14:09:50.826104+00:00",
+  "parties": [
+    {
+      "tel": "+17155121558",
+      "mailto": "harold.morris@motorcycledealership.com",
+      "name": "Harold Morris",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+12748894587",
+      "mailto": "kathleen.hayes@gmail.com",
+      "name": "Kathleen Hayes",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-17T14:09:50.490592",
+      "duration": 58.488,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "31d19654-6325-4f16-9275-60802c953797.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "1x75Uqt-4pU4GbWRboRzLBwWv3od2O6iZcaO7dSKIg8=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Harold Morris",
+        "customer_name": "Kathleen Hayes",
+        "business": "Motorcycle Dealership",
+        "problem": "typical situation",
+        "emotion": "frustrated",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Harold Morris and the customer's name is Kathleen Hayes.  The conversation is about Phat Hogs (a Motorcycle Dealership ) and is a conversation about typical situation.The customer is feeling {emotion}.",
+        "created_on": "2024-10-17T14:09:50.826037",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello, my name is Harold Morris from Phat Hogs, your trusted motorcycle dealership. How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi Harold, I\u2019m Kathleen Hayes. I\u2019m just trying to find some information about your motorcycles."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great to meet you, Kathleen! What specific information are you looking for? Perhaps details on our latest models?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Yes, I would like to know more about the latest models and their prices."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Of course! May I ask for your zip code so I can provide you with the most accurate information?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it\u2019s two one zero zero two."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you! And could you also provide me with your email address? This way, I can send you all the details directly."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Absolutely! It\u2019s kathleen.hayes at example dot com."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you so much for that information, Kathleen. I will send you a list of our latest models and prices right away."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Thank you, Harold! I appreciate your help."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome, Kathleen! Thank you for your time today. If you have any more questions, feel free to reach out. Have a great day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Harold Morris and the customer's name is Kathleen Hayes.  The conversation is about Phat Hogs (a Motorcycle Dealership ) and is a conversation about typical situation.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

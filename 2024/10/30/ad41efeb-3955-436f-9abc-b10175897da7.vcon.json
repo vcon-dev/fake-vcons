@@ -1,0 +1,115 @@
+{
+  "uuid": "0192de73-6e45-8d6f-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-30T17:22:39.813880+00:00",
+  "parties": [
+    {
+      "tel": "+16270713303",
+      "mailto": "andrew.rivera@foodtruck.com",
+      "name": "Andrew Rivera",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+17969125863",
+      "mailto": "cynthia.kelly@gmail.com",
+      "name": "Cynthia Kelly",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-30T17:22:39.222038",
+      "duration": 62.664,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "ad41efeb-3955-436f-9abc-b10175897da7.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "_gqiRsSDEOm68qqQApLFgIX-4VKiA1KTmpSzN12UIIQ=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Andrew Rivera",
+        "customer_name": "Cynthia Kelly",
+        "business": "Food Truck",
+        "problem": "security",
+        "emotion": "relieved",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Andrew Rivera and the customer's name is Cynthia Kelly.  The conversation is about the (a Food Truck ) and is a conversation about security.",
+        "created_on": "2024-10-30T17:22:39.813799",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello, my name is Andrew Rivera and I am with SecureFood Trucks. How may I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi, Andrew. My name is Cynthia Kelly, and I have some questions about security for my food truck."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Cynthia! I\u2019d be happy to help you with your security concerns. What specific aspects are you interested in?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Well, I want to make sure my food truck is safe at night and that I have protection against theft."
+        },
+        {
+          "speaker": "Agent",
+          "message": "That's a great concern, Cynthia. We offer various security solutions, including GPS tracking and surveillance cameras. May I have your zip code to assist you better?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's one zero two zero one."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you! And could you also provide me with your phone number for follow-up communications?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Of course, it's three zero three - four five six - seven eight nine zero."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Perfect, Cynthia! I\u2019ll make sure to send all the information to that number. Do you have any other questions?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Not right now, but I appreciate your help!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for your time, Cynthia. If you need further assistance, feel free to reach out. Have a great day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Andrew Rivera and the customer's name is Cynthia Kelly.  The conversation is about the (a Food Truck ) and is a conversation about security."
+      }
+    }
+  ]
+}

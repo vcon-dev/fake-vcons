@@ -1,0 +1,123 @@
+{
+  "uuid": "01929acb-a9b4-810a-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-17T14:04:51.508109+00:00",
+  "parties": [
+    {
+      "tel": "+17371332043",
+      "mailto": "joshua.ward@motorcycledealership.com",
+      "name": "Joshua Ward",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+13946519328",
+      "mailto": "andrea.torres@gmail.com",
+      "name": "Andrea Torres",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-10-17T14:04:50.804834",
+      "duration": 65.904,
+      "parties": [
+        0,
+        1
+      ],
+      "mimetype": "audio/mp3",
+      "filename": "51ae0ae3-fc96-4f7f-bd21-a47d0d9a6f53.mp3",
+      "body": "",
+      "encoding": "base64url",
+      "alg": "sha256",
+      "signature": "Su9rskrcusr4xMwIVuDpiovc3HipONt5c77G4VTUELY=",
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "Joshua Ward",
+        "customer_name": "Andrea Torres",
+        "business": "Motorcycle Dealership",
+        "problem": "typical situation",
+        "emotion": "sad",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Joshua Ward and the customer's name is Andrea Torres.  The conversation is about Phat Hogs (a Motorcycle Dealership ) and is a conversation about typical situation.The customer is feeling {emotion}.",
+        "created_on": "2024-10-17T14:04:51.508009",
+        "model": "gpt-4o-mini"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello! My name is Joshua Ward, and I am with Phat Hogs Motorcycle Dealership. Thank you for reaching out to us today."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi, Joshua! I'm Andrea Torres."
+        },
+        {
+          "speaker": "Agent",
+          "message": "It's great to meet you, Andrea! How can I assist you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm actually looking to buy a new motorcycle, but I'm feeling a little overwhelmed."
+        },
+        {
+          "speaker": "Agent",
+          "message": "I completely understand, Andrea. Choosing a motorcycle can be a big decision. What type of bike are you interested in?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm thinking about a cruiser, but I'm not sure which model would be best for me."
+        },
+        {
+          "speaker": "Agent",
+          "message": "We have a great selection of cruisers! Before we dive into the details, could you please provide me with your email address?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, it's andreatorres@example.com."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Andrea! And may I also have your phone number, please?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Of course, my number is five five five, one two three, four five six seven."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you for that information! I will make sure you receive all the details about our cruisers. It was a pleasure speaking with you, Andrea. Is there anything else you would like to know?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all for now. Thank you!"
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome! Thank you for your time today, Andrea. Have a great day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o-mini",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is Joshua Ward and the customer's name is Andrea Torres.  The conversation is about Phat Hogs (a Motorcycle Dealership ) and is a conversation about typical situation.The customer is feeling {emotion}."
+      }
+    }
+  ]
+}

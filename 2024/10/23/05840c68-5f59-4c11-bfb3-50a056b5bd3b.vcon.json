@@ -1,0 +1,155 @@
+{
+  "uuid": "0192bad6-f502-87f3-9dd8-dd37220d739c",
+  "vcon": "0.0.1",
+  "created_at": "2024-10-23T19:25:02.594562+00:00",
+  "parties": [
+    {
+      "tel": "+19491408895",
+      "mailto": "william.henderson@cardealership.com",
+      "name": "William Henderson",
+      "meta": {
+        "role": "agent"
+      }
+    },
+    {
+      "tel": "+15973615192",
+      "mailto": "kimberly.phillips@gmail.com",
+      "name": "Kimberly Phillips",
+      "meta": {
+        "role": "customer"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2024-10-23T12:25:02.594227",
+      "duration": 0,
+      "parties": [
+        0,
+        1
+      ],
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello, this is William Henderson from Vincenzo's Benzos. How can I help you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi, my name is Kimberly Phillips. I was interested in knowing more about your latest car deals."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Kimberly. We have some great offers at the moment. To better assist you, could you please tell me which model caught your eye?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm particularly interested in the new SUV models you have in stock."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great choice! SUVs are perfect for families or off-road adventures. May I have your phone number, so we can keep you updated on any special deals for SUVs?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my phone number is five five five one two three four five six seven."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Kimberly. Additionally, could you provide me with your email address? This will allow us to send you detailed information about the car models and financing options."
+        },
+        {
+          "speaker": "Customer",
+          "message": "My email address is kimberlyphillips@example.com."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you very much, Kimberly. We\u2019ll keep you updated with the latest promotions and offers. Is there anything else I can help you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all for now. Thank you for your help."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome! Thank you for your time, Kimberly. Feel free to reach out if you have any more questions. Have a great day!"
+        }
+      ],
+      "disposition": "ANSWERED"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "generation_info",
+      "body": {
+        "agent_name": "William Henderson",
+        "customer_name": "Kimberly Phillips",
+        "business": "Car Dealership",
+        "problem": "typical situation",
+        "emotion": "happy",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is William Henderson and the customer's name is Kimberly Phillips.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation.",
+        "created_on": "2024-10-23T12:25:02.594449",
+        "model": "gpt-4o"
+      },
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "analysis_info",
+      "dialog": 0,
+      "vendor": "openai",
+      "body": [
+        {
+          "speaker": "Agent",
+          "message": "Hello, this is William Henderson from Vincenzo's Benzos. How can I help you today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Hi, my name is Kimberly Phillips. I was interested in knowing more about your latest car deals."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Nice to meet you, Kimberly. We have some great offers at the moment. To better assist you, could you please tell me which model caught your eye?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "I'm particularly interested in the new SUV models you have in stock."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Great choice! SUVs are perfect for families or off-road adventures. May I have your phone number, so we can keep you updated on any special deals for SUVs?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Sure, my phone number is five five five one two three four five six seven."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you, Kimberly. Additionally, could you provide me with your email address? This will allow us to send you detailed information about the car models and financing options."
+        },
+        {
+          "speaker": "Customer",
+          "message": "My email address is kimberlyphillips@example.com."
+        },
+        {
+          "speaker": "Agent",
+          "message": "Thank you very much, Kimberly. We\u2019ll keep you updated with the latest promotions and offers. Is there anything else I can help you with today?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "No, that's all for now. Thank you for your help."
+        },
+        {
+          "speaker": "Agent",
+          "message": "You're welcome! Thank you for your time, Kimberly. Feel free to reach out if you have any more questions. Have a great day!"
+        }
+      ],
+      "encoding": "none",
+      "vendor_schema": {
+        "model": "gpt-4o",
+        "prompt": "\nGenerate a fake conversation between a customer and an agent.\nThe agent should introduce themselves, their company and give the customer\ntheir name. The agent should ask for the customer's name.\nAs part of the conversation, have the agent ask for two pieces of\npersonal information.  Spell out numbers. For example, 1000 should be\nsaid as one zero zero zero, not one thousand. The conversation should be\nat least 10 lines long and be complete. At the end\nof the conversation, the agent should thank the customer for their time\nand end the conversation. Return the conversation formatted \nlike the following example:\n\n{'conversation': \n    [\n    {'speaker': 'Agent', 'message': 'xxxxx'}, \n    {'speaker': 'Customer', 'message': \"xxxxx.\"}, \n    {'speaker': 'Agent', 'message': \"xxxxxx\"}\n    ] \n}\n\n\nIn this conversation, the agent's name is William Henderson and the customer's name is Kimberly Phillips.  The conversation is about Vincenzo's Benzos (a Car Dealership ) and is a conversation about typical situation."
+      }
+    }
+  ]
+}
