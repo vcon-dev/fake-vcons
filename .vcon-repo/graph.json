@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "repo": "fake-vcons",
+  "repo_version": "0.1.0",
+  "archetype": "data-repo",
+  "generated_at": "2026-04-16T15:15:44.467601+00:00",
+  "stats": {
+    "node_count": 9,
+    "edge_count": 6
+  },
+  "nodes": [
+    {
+      "id": "dataset:root",
+      "type": "dataset",
+      "name": "fake-vcons",
+      "description": "610 files, 2.9 MB",
+      "file_count": 610,
+      "size_mb": 2.9
+    },
+    {
+      "id": "category:json",
+      "type": "category",
+      "name": ".json files",
+      "description": "601 files",
+      "count": 601
+    },
+    {
+      "id": "category:mp3",
+      "type": "category",
+      "name": ".mp3 files",
+      "description": "4 files",
+      "count": 4
+    },
+    {
+      "id": "category:toml",
+      "type": "category",
+      "name": ".toml files",
+      "description": "1 files",
+      "count": 1
+    },
+    {
+      "id": "category:md",
+      "type": "category",
+      "name": ".md files",
+      "description": "1 files",
+      "count": 1
+    },
+    {
+      "id": "category:lock",
+      "type": "category",
+      "name": ".lock files",
+      "description": "1 files",
+      "count": 1
+    },
+    {
+      "id": "category:pdf",
+      "type": "category",
+      "name": ".pdf files",
+      "description": "1 files",
+      "count": 1
+    },
+    {
+      "id": "component:2025",
+      "type": "component",
+      "name": "2025",
+      "file": "2025",
+      "description": "605 files"
+    },
+    {
+      "id": "document:readme",
+      "type": "document",
+      "name": "README",
+      "file": "README.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "dataset:root",
+      "to": "category:json",
+      "type": "contains"
+    },
+    {
+      "from": "dataset:root",
+      "to": "category:mp3",
+      "type": "contains"
+    },
+    {
+      "from": "dataset:root",
+      "to": "category:toml",
+      "type": "contains"
+    },
+    {
+      "from": "dataset:root",
+      "to": "category:md",
+      "type": "contains"
+    },
+    {
+      "from": "dataset:root",
+      "to": "category:lock",
+      "type": "contains"
+    },
+    {
+      "from": "dataset:root",
+      "to": "category:pdf",
+      "type": "contains"
+    }
+  ],
+  "subsystems": []
+}
