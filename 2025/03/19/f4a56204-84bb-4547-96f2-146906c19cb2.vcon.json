@@ -37,7 +37,7 @@
         0
       ],
       "filename": "f4a56204-84bb-4547-96f2-146906c19cb2.mp3",
-      "url": "https://fake-vcons.s3.amazonaws.com/2025/03/19/f4a56204-84bb-4547-96f2-146906c19cb2.mp3?AWSAccessKeyId=AKIA2ELNPGOAXBNEXI6Z&Signature=jd8yHFMn6ivR6ZBMKIPMH2tMDDw%3D&Expires=1743633932",
+      "url": "https://fake-vcons.s3.amazonaws.com/2025/03/19/f4a56204-84bb-4547-96f2-146906c19cb2.mp3",
       "alg": "SHA-512",
       "signature": "4ZfxiIT1HSyo89wDjknoYvWSTqWdMmCVsaKEKMsLnTG6smVpZhi-NJ_9XFpUlJwGqHHmousgiA1N-h8M72Ib6w==",
       "duration": 67.152,
@@ -48,7 +48,8 @@
         "is_dealer_manually_set": false,
         "engaged": false
       },
-      "mediatype": "audio/x-wav"
+      "mediatype": "audio/mpeg",
+      "content_hash": "sha512-4ZfxiIT1HSyo89wDjknoYvWSTqWdMmCVsaKEKMsLnTG6smVpZhi-NJ_9XFpUlJwGqHHmousgiA1N-h8M72Ib6w"
     }
   ],
   "attachments": [
