@@ -1,1 +1,148 @@
-{"uuid": "0195b7a7-119c-8db0-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-14T15:06:17-04:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "paul.lopez@autoinsurancecompany.com", "name": "Paul Lopez", "role": "agent", "id": "paul.lopez@autoinsurancecompany.com"}, {"tel": "+19412317611", "mailto": "lisa.clark@gmail.com", "name": "+19412317611", "role": "contact", "id": "+19412317611"}], "dialog": [{"type": "text", "start": "2025-03-14T14:27:28-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Paul Lopez. May I please have your name?"}, {"type": "text", "start": "2025-03-14T14:30:03-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hi, I'm Lisa Clark."}, {"type": "text", "start": "2025-03-14T14:34:46-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Nice to meet you, Lisa. How do you spell your last name so we ensure it's correct in our system?"}, {"type": "text", "start": "2025-03-14T14:36:58-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "C-L-A-R-K."}, {"type": "text", "start": "2025-03-14T14:40:53-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Lisa. Can you please provide me with your policy number, it's useful for us to assist you effectively?"}, {"type": "text", "start": "2025-03-14T14:44:54-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, it's seven one two three four."}, {"type": "text", "start": "2025-03-14T14:47:23-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Great, thank you. Additionally, can you confirm the make and model of your vehicle for verification purposes?"}, {"type": "text", "start": "2025-03-14T14:52:59-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "It's a Chevrolet Cruze."}, {"type": "text", "start": "2025-03-14T14:57:27-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for providing that information, Lisa. Is there anything specific you need assistance with today regarding your policy or any other concerns?"}, {"type": "text", "start": "2025-03-14T15:00:36-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Not at the moment, just wanted to check on my coverage."}, {"type": "text", "start": "2025-03-14T15:06:02-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Understood, Lisa. I've noted that down. Thank you for your time. Have a great day!"}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b7a7-119c-8db0-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-14T15:06:17-04:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "paul.lopez@autoinsurancecompany.com",
+      "name": "Paul Lopez",
+      "role": "agent",
+      "id": "paul.lopez@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+19412317611",
+      "mailto": "lisa.clark@gmail.com",
+      "name": "+19412317611",
+      "role": "contact",
+      "id": "+19412317611",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-14T14:27:28-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Paul Lopez. May I please have your name?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T14:30:03-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hi, I'm Lisa Clark.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T14:34:46-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Nice to meet you, Lisa. How do you spell your last name so we ensure it's correct in our system?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T14:36:58-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "C-L-A-R-K.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T14:40:53-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Lisa. Can you please provide me with your policy number, it's useful for us to assist you effectively?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T14:44:54-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, it's seven one two three four.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T14:47:23-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Great, thank you. Additionally, can you confirm the make and model of your vehicle for verification purposes?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T14:52:59-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "It's a Chevrolet Cruze.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T14:57:27-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for providing that information, Lisa. Is there anything specific you need assistance with today regarding your policy or any other concerns?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T15:00:36-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Not at the moment, just wanted to check on my coverage.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T15:06:02-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Understood, Lisa. I've noted that down. Thank you for your time. Have a great day!",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,1 +1,148 @@
-{"uuid": "0195b7a7-f735-822e-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-01T10:33:44-05:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "jacob.barnes@autoinsurancecompany.com", "name": "Jacob Barnes", "role": "agent", "id": "jacob.barnes@autoinsurancecompany.com"}, {"tel": "+15526899741", "mailto": "sara.green@gmail.com", "name": "+15526899741", "role": "contact", "id": "+15526899741"}], "dialog": [{"type": "text", "start": "2025-03-01T09:55:34-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello, thank you for contacting Bayview Auto Insurance. My name is Jacob Barnes. May I have your name, please?"}, {"type": "text", "start": "2025-03-01T09:57:38-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hello, I'm Sara Green."}, {"type": "text", "start": "2025-03-01T10:02:11-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Nice to meet you, Sara. How can I assist you today?"}, {"type": "text", "start": "2025-03-01T10:04:39-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "I'd like to file a new claim for an accident that occurred yesterday."}, {"type": "text", "start": "2025-03-01T10:08:06-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Of course, Sara. Can you please provide me with the date and time of the accident, as well as a brief description of what happened?"}, {"type": "text", "start": "2025-03-01T10:13:28-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "The accident took place on November twenty two, two zero two two, at eight thirty in the morning. I was rear-ended while waiting at a traffic light."}, {"type": "text", "start": "2025-03-01T10:15:53-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for the information. One more detail needed, Sara. How many people were involved in the accident with you?"}, {"type": "text", "start": "2025-03-01T10:21:17-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "There were two other vehicles and a total of four people, including myself."}, {"type": "text", "start": "2025-03-01T10:24:46-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for providing that information, Sara. We will process your new claim accordingly. Is there anything else I can assist you with today?"}, {"type": "text", "start": "2025-03-01T10:28:16-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "No, that's all for now. Thank you for your help, Jacob."}, {"type": "text", "start": "2025-03-01T10:33:29-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "You're welcome, Sara. If you have any further questions or need assistance in the future, feel free to contact us again. Have a great day!"}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b7a7-f735-822e-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-01T10:33:44-05:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "jacob.barnes@autoinsurancecompany.com",
+      "name": "Jacob Barnes",
+      "role": "agent",
+      "id": "jacob.barnes@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+15526899741",
+      "mailto": "sara.green@gmail.com",
+      "name": "+15526899741",
+      "role": "contact",
+      "id": "+15526899741",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-01T09:55:34-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello, thank you for contacting Bayview Auto Insurance. My name is Jacob Barnes. May I have your name, please?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T09:57:38-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hello, I'm Sara Green.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T10:02:11-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Nice to meet you, Sara. How can I assist you today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T10:04:39-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "I'd like to file a new claim for an accident that occurred yesterday.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T10:08:06-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Of course, Sara. Can you please provide me with the date and time of the accident, as well as a brief description of what happened?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T10:13:28-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "The accident took place on November twenty two, two zero two two, at eight thirty in the morning. I was rear-ended while waiting at a traffic light.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T10:15:53-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for the information. One more detail needed, Sara. How many people were involved in the accident with you?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T10:21:17-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "There were two other vehicles and a total of four people, including myself.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T10:24:46-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for providing that information, Sara. We will process your new claim accordingly. Is there anything else I can assist you with today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T10:28:16-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "No, that's all for now. Thank you for your help, Jacob.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-01T10:33:29-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "You're welcome, Sara. If you have any further questions or need assistance in the future, feel free to contact us again. Have a great day!",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

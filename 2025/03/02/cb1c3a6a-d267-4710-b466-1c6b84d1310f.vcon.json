@@ -1,1 +1,138 @@
-{"uuid": "0195b79c-cc1b-87a3-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-02T11:53:42-05:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "edward.rivera@autoinsurancecompany.com", "name": "Edward Rivera", "role": "agent", "id": "edward.rivera@autoinsurancecompany.com"}, {"tel": "+17094926803", "mailto": "samantha.smith@gmail.com", "name": "+17094926803", "role": "contact", "id": "+17094926803"}], "dialog": [{"type": "text", "start": "2025-03-02T11:17:47-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello, thank you for reaching out to Old Stone Auto Insurance. My name is Edward Rivera. May I have your name, please?"}, {"type": "text", "start": "2025-03-02T11:22:23-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hi, I'm Samantha Smith."}, {"type": "text", "start": "2025-03-02T11:25:00-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Nice to meet you, Samantha. Can you please provide me with your policy number and date of birth for verification purposes?"}, {"type": "text", "start": "2025-03-02T11:29:03-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, my policy number is eight five six two one and my date of birth is zero four slash eighteen slash one nine eight seven."}, {"type": "text", "start": "2025-03-02T11:33:40-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Samantha. I also need the make and model of your vehicle along with the VIN number. Could you please provide those details?"}, {"type": "text", "start": "2025-03-02T11:37:19-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Of course. The vehicle is a two zero one eight Honda Civic and the VIN number is J A H N zero three four five six seven eight nine zero one two three."}, {"type": "text", "start": "2025-03-02T11:42:01-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Great, thank you for the information, Samantha. Is there anything else I can assist you with today?"}, {"type": "text", "start": "2025-03-02T11:44:16-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "No, that was all. Thank you for your help, Edward."}, {"type": "text", "start": "2025-03-02T11:49:54-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "You're welcome, Samantha. If you have any more questions in the future, feel free to reach out. Have a wonderful day!"}, {"type": "text", "start": "2025-03-02T11:53:27-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for contacting Old Stone Auto Insurance. Goodbye."}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b79c-cc1b-87a3-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-02T11:53:42-05:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "edward.rivera@autoinsurancecompany.com",
+      "name": "Edward Rivera",
+      "role": "agent",
+      "id": "edward.rivera@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+17094926803",
+      "mailto": "samantha.smith@gmail.com",
+      "name": "+17094926803",
+      "role": "contact",
+      "id": "+17094926803",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-02T11:17:47-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello, thank you for reaching out to Old Stone Auto Insurance. My name is Edward Rivera. May I have your name, please?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T11:22:23-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hi, I'm Samantha Smith.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T11:25:00-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Nice to meet you, Samantha. Can you please provide me with your policy number and date of birth for verification purposes?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T11:29:03-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, my policy number is eight five six two one and my date of birth is zero four slash eighteen slash one nine eight seven.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T11:33:40-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Samantha. I also need the make and model of your vehicle along with the VIN number. Could you please provide those details?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T11:37:19-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Of course. The vehicle is a two zero one eight Honda Civic and the VIN number is J A H N zero three four five six seven eight nine zero one two three.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T11:42:01-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Great, thank you for the information, Samantha. Is there anything else I can assist you with today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T11:44:16-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "No, that was all. Thank you for your help, Edward.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T11:49:54-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "You're welcome, Samantha. If you have any more questions in the future, feel free to reach out. Have a wonderful day!",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T11:53:27-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for contacting Old Stone Auto Insurance. Goodbye.",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

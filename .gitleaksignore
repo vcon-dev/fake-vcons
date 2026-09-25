@@ -1,0 +1,8 @@
+# These 4 findings are presigned S3 URLs embedded in synthetic vCon fixtures.
+# The AWS access key ID is part of an already-expired presigned URL (Expires
+# timestamp in the past), already published in this repo's git history
+# (commit e138d09), and not a live credential. See README.md "Dataset" section.
+2025/02/28/ed6e1610-6208-457b-a65f-549e84173730.vcon.json:aws-access-token:40
+2025/03/19/f4a56204-84bb-4547-96f2-146906c19cb2.vcon.json:aws-access-token:40
+2025/03/20/afedada6-59bb-4c03-91ac-bdba97268238.vcon.json:aws-access-token:40
+2025/04/02/d128f74e-fa68-492f-bd14-df8f470d302a.vcon.json:aws-access-token:40

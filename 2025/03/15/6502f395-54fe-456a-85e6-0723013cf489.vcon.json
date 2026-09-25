@@ -1,1 +1,138 @@
-{"uuid": "0195b79d-e159-83d7-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-15T16:25:20-04:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "jesse.bryant@autoinsurancecompany.com", "name": "Jesse Bryant", "role": "agent", "id": "jesse.bryant@autoinsurancecompany.com"}, {"tel": "+11534981640", "mailto": "victoria.edwards@gmail.com", "name": "+11534981640", "role": "contact", "id": "+11534981640"}], "dialog": [{"type": "text", "start": "2025-03-15T15:56:18-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello! Thank you for contacting Old Stone Auto Insurance. My name is Jesse Bryant. May I have your name, please?"}, {"type": "text", "start": "2025-03-15T16:01:30-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hello, Jesse. My name is Victoria Edwards."}, {"type": "text", "start": "2025-03-15T16:03:45-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Nice to meet you, Victoria. Can you please provide me with your policy number?"}, {"type": "text", "start": "2025-03-15T16:07:53-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, my policy number is five seven eight six nine."}, {"type": "text", "start": "2025-03-15T16:10:16-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Victoria. Additionally, could you confirm the VIN number of your vehicle?"}, {"type": "text", "start": "2025-03-15T16:15:25-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Of course, the VIN number is two two charlie bravo zero kilo."}, {"type": "text", "start": "2025-03-15T16:17:38-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for providing that information, Victoria. Is there anything else I can assist you with today?"}, {"type": "text", "start": "2025-03-15T16:19:46-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "No, that's all for now. Thank you."}, {"type": "text", "start": "2025-03-15T16:22:12-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for contacting us, Victoria. Have a great day!"}, {"type": "text", "start": "2025-03-15T16:25:05-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "End of conversation."}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b79d-e159-83d7-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-15T16:25:20-04:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "jesse.bryant@autoinsurancecompany.com",
+      "name": "Jesse Bryant",
+      "role": "agent",
+      "id": "jesse.bryant@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+11534981640",
+      "mailto": "victoria.edwards@gmail.com",
+      "name": "+11534981640",
+      "role": "contact",
+      "id": "+11534981640",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-15T15:56:18-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello! Thank you for contacting Old Stone Auto Insurance. My name is Jesse Bryant. May I have your name, please?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-15T16:01:30-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hello, Jesse. My name is Victoria Edwards.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-15T16:03:45-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Nice to meet you, Victoria. Can you please provide me with your policy number?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-15T16:07:53-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, my policy number is five seven eight six nine.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-15T16:10:16-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Victoria. Additionally, could you confirm the VIN number of your vehicle?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-15T16:15:25-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Of course, the VIN number is two two charlie bravo zero kilo.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-15T16:17:38-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for providing that information, Victoria. Is there anything else I can assist you with today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-15T16:19:46-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "No, that's all for now. Thank you.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-15T16:22:12-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for contacting us, Victoria. Have a great day!",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-15T16:25:05-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "End of conversation.",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

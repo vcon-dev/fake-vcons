@@ -1,1 +1,148 @@
-{"uuid": "0195b7a6-3b95-8e10-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-18T17:24:41-04:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "brian.edwards@autoinsurancecompany.com", "name": "Brian Edwards", "role": "agent", "id": "brian.edwards@autoinsurancecompany.com"}, {"tel": "+12475943369", "mailto": "judy.moore@gmail.com", "name": "+12475943369", "role": "contact", "id": "+12475943369"}], "dialog": [{"type": "text", "start": "2025-03-18T16:44:17-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Brian Edwards. May I have your name, please?"}, {"type": "text", "start": "2025-03-18T16:50:03-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hello, I'm Judy Moore."}, {"type": "text", "start": "2025-03-18T16:53:19-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Nice to meet you, Judy. Can you provide me with your policy number and date of birth for verification purposes?"}, {"type": "text", "start": "2025-03-18T16:57:00-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, my policy number is five six seven eight nine and my date of birth is zero six dash one seven dash one nine eight zero."}, {"type": "text", "start": "2025-03-18T17:00:28-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Judy. I have verified your information. Can you also confirm the make and model of your vehicle for our records?"}, {"type": "text", "start": "2025-03-18T17:05:12-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Of course, my vehicle is a two zero one five Toyota Camry."}, {"type": "text", "start": "2025-03-18T17:07:57-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for providing that information, Judy. Is there anything specific you would like to inquire about or update regarding your policy today?"}, {"type": "text", "start": "2025-03-18T17:11:44-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "I would like to add a new driver to my policy, my husband John Moore."}, {"type": "text", "start": "2025-03-18T17:15:09-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Certainly, Judy. I will assist you with adding John Moore as a driver. Thank you for choosing Old Stone Auto Insurance. Is there anything else I can help you with today?"}, {"type": "text", "start": "2025-03-18T17:19:26-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "No, that will be all. Thank you for your help, Brian."}, {"type": "text", "start": "2025-03-18T17:24:26-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "You're welcome, Judy. Have a great day and feel free to contact us anytime. Goodbye."}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b7a6-3b95-8e10-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-18T17:24:41-04:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "brian.edwards@autoinsurancecompany.com",
+      "name": "Brian Edwards",
+      "role": "agent",
+      "id": "brian.edwards@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+12475943369",
+      "mailto": "judy.moore@gmail.com",
+      "name": "+12475943369",
+      "role": "contact",
+      "id": "+12475943369",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-18T16:44:17-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Brian Edwards. May I have your name, please?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T16:50:03-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hello, I'm Judy Moore.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T16:53:19-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Nice to meet you, Judy. Can you provide me with your policy number and date of birth for verification purposes?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T16:57:00-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, my policy number is five six seven eight nine and my date of birth is zero six dash one seven dash one nine eight zero.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T17:00:28-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Judy. I have verified your information. Can you also confirm the make and model of your vehicle for our records?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T17:05:12-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Of course, my vehicle is a two zero one five Toyota Camry.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T17:07:57-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for providing that information, Judy. Is there anything specific you would like to inquire about or update regarding your policy today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T17:11:44-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "I would like to add a new driver to my policy, my husband John Moore.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T17:15:09-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Certainly, Judy. I will assist you with adding John Moore as a driver. Thank you for choosing Old Stone Auto Insurance. Is there anything else I can help you with today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T17:19:26-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "No, that will be all. Thank you for your help, Brian.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-18T17:24:26-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "You're welcome, Judy. Have a great day and feel free to contact us anytime. Goodbye.",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

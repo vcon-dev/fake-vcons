@@ -2,6 +2,15 @@
 
 This repository contains synthetic virtual conversation files (vCon) created using the [vcon_faker](https://github.com/vcon-dev/vcon_faker) tool. These files simulate interactions between a customer service agent and a customer across various business scenarios. The conversations are generated based on predefined prompts and include metadata such as agent and customer names, business type, and emotional context.
 
+## Dataset
+
+601 vCons, syntax `0.4.0` (draft-ietf-vcon-vcon-core-02). All conversations are synthetic: no
+real data subject, generated end to end by vcon_faker. Every vCon carries a `lawful_basis`
+attachment (`legitimate_interests`, approved by the repo owner 2026-09-25) documenting that
+basis, and each party is marked `"validation": "synthetic"`. Four vCons reference external audio
+via presigned S3 URLs that have since expired; `vcon-data lint` flags these as
+`external-url-missing-hash` and it is expected.
+
 ## About vcon_faker
 
 The vcon_faker tool is a powerful Python-based utility that generates realistic synthetic conversations for testing and development purposes. It leverages AI models to create natural-sounding dialogues between agents and customers, complete with appropriate metadata and context.
@@ -30,7 +39,7 @@ A vCon JSON object can be in one of three forms:
 #### General Structure
 ```json
 {
-  "vcon": "0.0.1",           // Syntax version
+  "vcon": "0.4.0",           // Syntax version
   "uuid": "string",          // Unique identifier
   "created_at": "date",      // Creation timestamp
   "updated_at": "date",      // Last modified timestamp
