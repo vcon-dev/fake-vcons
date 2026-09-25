@@ -1,1 +1,148 @@
-{"uuid": "0195b7a6-d747-8aa9-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-03T11:03:05-05:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "roger.long@autoinsurancecompany.com", "name": "Roger Long", "role": "agent", "id": "roger.long@autoinsurancecompany.com"}, {"tel": "+12017707801", "mailto": "lauren.russell@gmail.com", "name": "+12017707801", "role": "contact", "id": "+12017707801"}], "dialog": [{"type": "text", "start": "2025-03-03T10:22:38-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Roger Long. May I have your name, please?"}, {"type": "text", "start": "2025-03-03T10:26:24-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hi, my name is Lauren Russell."}, {"type": "text", "start": "2025-03-03T10:30:59-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Nice to meet you, Lauren. Could you please provide me with your policy number?"}, {"type": "text", "start": "2025-03-03T10:35:39-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, my policy number is eight three two zero four."}, {"type": "text", "start": "2025-03-03T10:39:10-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Lauren. What is the year, make, and model of the vehicle involved in the incident?"}, {"type": "text", "start": "2025-03-03T10:41:10-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "The vehicle is a two zero one eight Ford Fusion."}, {"type": "text", "start": "2025-03-03T10:44:47-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Great, could you also confirm your date of birth for verification purposes?"}, {"type": "text", "start": "2025-03-03T10:50:11-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "My date of birth is March ten, nineteen eighty-five."}, {"type": "text", "start": "2025-03-03T10:53:47-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for providing that information, Lauren. Is there anything else I can assist you with today?"}, {"type": "text", "start": "2025-03-03T10:58:27-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "No, that's all for now. Thank you for your help."}, {"type": "text", "start": "2025-03-03T11:02:50-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "You're welcome, Lauren. Thank you for choosing Old Stone Auto Insurance. Have a great day!"}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b7a6-d747-8aa9-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-03T11:03:05-05:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "roger.long@autoinsurancecompany.com",
+      "name": "Roger Long",
+      "role": "agent",
+      "id": "roger.long@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+12017707801",
+      "mailto": "lauren.russell@gmail.com",
+      "name": "+12017707801",
+      "role": "contact",
+      "id": "+12017707801",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-03T10:22:38-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Roger Long. May I have your name, please?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T10:26:24-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hi, my name is Lauren Russell.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T10:30:59-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Nice to meet you, Lauren. Could you please provide me with your policy number?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T10:35:39-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, my policy number is eight three two zero four.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T10:39:10-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Lauren. What is the year, make, and model of the vehicle involved in the incident?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T10:41:10-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "The vehicle is a two zero one eight Ford Fusion.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T10:44:47-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Great, could you also confirm your date of birth for verification purposes?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T10:50:11-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "My date of birth is March ten, nineteen eighty-five.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T10:53:47-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for providing that information, Lauren. Is there anything else I can assist you with today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T10:58:27-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "No, that's all for now. Thank you for your help.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T11:02:50-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "You're welcome, Lauren. Thank you for choosing Old Stone Auto Insurance. Have a great day!",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

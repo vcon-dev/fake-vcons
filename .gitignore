@@ -22,3 +22,5 @@ local_settings.py
 
 .DS_Store
 .gitattributes
+
+.omc/

@@ -1,1 +1,148 @@
-{"uuid": "0195b7a1-7ae6-8bf7-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-02T13:59:04-05:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "alan.davis@autoinsurancecompany.com", "name": "Alan Davis", "role": "agent", "id": "alan.davis@autoinsurancecompany.com"}, {"tel": "+19252231439", "mailto": "shirley.adams@gmail.com", "name": "+19252231439", "role": "contact", "id": "+19252231439"}], "dialog": [{"type": "text", "start": "2025-03-02T13:10:02-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Alan Davis. May I please have your name?"}, {"type": "text", "start": "2025-03-02T13:14:56-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hi there, my name is Shirley Adams."}, {"type": "text", "start": "2025-03-02T13:17:52-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Nice to meet you, Shirley. Can you please provide me with your policy number?"}, {"type": "text", "start": "2025-03-02T13:23:29-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, it's three two six four five."}, {"type": "text", "start": "2025-03-02T13:27:06-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Shirley. Additionally, could you confirm the make and model of your insured vehicle?"}, {"type": "text", "start": "2025-03-02T13:32:58-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Of course, it's a two zero one eight Toyota Corolla."}, {"type": "text", "start": "2025-03-02T13:37:30-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Great, thank you for that information. Now, may I know your date of birth for verification purposes?"}, {"type": "text", "start": "2025-03-02T13:42:54-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, it's the eleventh of August, nineteen eighty-seven."}, {"type": "text", "start": "2025-03-02T13:48:30-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Shirley, for sharing that with me. I have noted the details provided. Is there anything else I can assist you with today?"}, {"type": "text", "start": "2025-03-02T13:54:22-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "No, that's all for now. Thank you, Alan, for your help."}, {"type": "text", "start": "2025-03-02T13:58:49-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "You're welcome, Shirley. If you have any more questions in the future, feel free to reach out. Have a wonderful day!"}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b7a1-7ae6-8bf7-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-02T13:59:04-05:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "alan.davis@autoinsurancecompany.com",
+      "name": "Alan Davis",
+      "role": "agent",
+      "id": "alan.davis@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+19252231439",
+      "mailto": "shirley.adams@gmail.com",
+      "name": "+19252231439",
+      "role": "contact",
+      "id": "+19252231439",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-02T13:10:02-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Alan Davis. May I please have your name?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:14:56-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hi there, my name is Shirley Adams.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:17:52-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Nice to meet you, Shirley. Can you please provide me with your policy number?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:23:29-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, it's three two six four five.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:27:06-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Shirley. Additionally, could you confirm the make and model of your insured vehicle?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:32:58-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Of course, it's a two zero one eight Toyota Corolla.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:37:30-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Great, thank you for that information. Now, may I know your date of birth for verification purposes?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:42:54-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, it's the eleventh of August, nineteen eighty-seven.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:48:30-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Shirley, for sharing that with me. I have noted the details provided. Is there anything else I can assist you with today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:54:22-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "No, that's all for now. Thank you, Alan, for your help.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-02T13:58:49-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "You're welcome, Shirley. If you have any more questions in the future, feel free to reach out. Have a wonderful day!",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

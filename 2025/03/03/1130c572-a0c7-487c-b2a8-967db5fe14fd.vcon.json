@@ -1,1 +1,138 @@
-{"uuid": "0195b7a0-1cb1-8472-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-03T14:24:53-05:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "samuel.diaz@autoinsurancecompany.com", "name": "Samuel Diaz", "role": "agent", "id": "samuel.diaz@autoinsurancecompany.com"}, {"tel": "+19762221701", "mailto": "kimberly.allen@gmail.com", "name": "+19762221701", "role": "contact", "id": "+19762221701"}], "dialog": [{"type": "text", "start": "2025-03-03T13:46:18-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello! Thank you for contacting Old Stone Auto Insurance. My name is Samuel Diaz. May I have your name, please?"}, {"type": "text", "start": "2025-03-03T13:50:49-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hello, Samuel. My name is Kimberly Allen."}, {"type": "text", "start": "2025-03-03T13:56:06-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "It's great to meet you, Kimberly. Could you please provide me with your policy number for verification purposes?"}, {"type": "text", "start": "2025-03-03T14:00:30-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, my policy number is five eight two four seven nine."}, {"type": "text", "start": "2025-03-03T14:05:55-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Kimberly. Additionally, I will need to verify your date of birth. Could you please provide me with that information as well?"}, {"type": "text", "start": "2025-03-03T14:08:47-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Of course. My date of birth is December twenty third, nineteen eighty five."}, {"type": "text", "start": "2025-03-03T14:13:48-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for confirming that, Kimberly. Your account details are now verified. How can I assist you today?"}, {"type": "text", "start": "2025-03-03T14:17:57-05:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "I need to add a new vehicle to my policy."}, {"type": "text", "start": "2025-03-03T14:21:46-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "I can certainly help you with that, Kimberly. Let's proceed with adding the new vehicle to your policy."}, {"type": "text", "start": "2025-03-03T14:24:38-05:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for your time, Kimberly. Have a great day!"}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b7a0-1cb1-8472-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-03T14:24:53-05:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "samuel.diaz@autoinsurancecompany.com",
+      "name": "Samuel Diaz",
+      "role": "agent",
+      "id": "samuel.diaz@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+19762221701",
+      "mailto": "kimberly.allen@gmail.com",
+      "name": "+19762221701",
+      "role": "contact",
+      "id": "+19762221701",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-03T13:46:18-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello! Thank you for contacting Old Stone Auto Insurance. My name is Samuel Diaz. May I have your name, please?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T13:50:49-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hello, Samuel. My name is Kimberly Allen.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T13:56:06-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "It's great to meet you, Kimberly. Could you please provide me with your policy number for verification purposes?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T14:00:30-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, my policy number is five eight two four seven nine.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T14:05:55-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Kimberly. Additionally, I will need to verify your date of birth. Could you please provide me with that information as well?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T14:08:47-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Of course. My date of birth is December twenty third, nineteen eighty five.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T14:13:48-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for confirming that, Kimberly. Your account details are now verified. How can I assist you today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T14:17:57-05:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "I need to add a new vehicle to my policy.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T14:21:46-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "I can certainly help you with that, Kimberly. Let's proceed with adding the new vehicle to your policy.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-03T14:24:38-05:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for your time, Kimberly. Have a great day!",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

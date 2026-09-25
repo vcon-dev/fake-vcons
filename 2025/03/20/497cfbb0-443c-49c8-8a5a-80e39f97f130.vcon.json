@@ -1,1 +1,148 @@
-{"uuid": "0195b7a1-c11a-8dd0-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-20T15:32:45-04:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "johnny.williams@autoinsurancecompany.com", "name": "Johnny Williams", "role": "agent", "id": "johnny.williams@autoinsurancecompany.com"}, {"tel": "+16719388953", "mailto": "emily.richardson@gmail.com", "name": "+16719388953", "role": "contact", "id": "+16719388953"}], "dialog": [{"type": "text", "start": "2025-03-20T14:51:39-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Johnny Williams. May I have your name, please?"}, {"type": "text", "start": "2025-03-20T14:53:47-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hi, I'm Emily Richardson."}, {"type": "text", "start": "2025-03-20T14:59:28-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Nice to meet you, Emily. Could you please provide me with your policy number for verification purposes?"}, {"type": "text", "start": "2025-03-20T15:03:55-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, it's five six two three one."}, {"type": "text", "start": "2025-03-20T15:07:48-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Emily. Additionally, may I have your date of birth to confirm your identity?"}, {"type": "text", "start": "2025-03-20T15:13:01-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Of course, it's zero eight one nine one nine eight eight."}, {"type": "text", "start": "2025-03-20T15:18:35-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Perfect, thank you for providing that information, Emily. How can I assist you today?"}, {"type": "text", "start": "2025-03-20T15:21:48-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "I need to check the status of my claim."}, {"type": "text", "start": "2025-03-20T15:26:06-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "I will look into that for you. Thank you for your patience, Emily."}, {"type": "text", "start": "2025-03-20T15:30:27-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you for your time, Emily. Have a great day."}, {"type": "text", "start": "2025-03-20T15:32:30-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Thank you, you too."}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b7a1-c11a-8dd0-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-20T15:32:45-04:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "johnny.williams@autoinsurancecompany.com",
+      "name": "Johnny Williams",
+      "role": "agent",
+      "id": "johnny.williams@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+16719388953",
+      "mailto": "emily.richardson@gmail.com",
+      "name": "+16719388953",
+      "role": "contact",
+      "id": "+16719388953",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-20T14:51:39-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello, thank you for contacting Old Stone Auto Insurance. My name is Johnny Williams. May I have your name, please?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T14:53:47-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hi, I'm Emily Richardson.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T14:59:28-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Nice to meet you, Emily. Could you please provide me with your policy number for verification purposes?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T15:03:55-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, it's five six two three one.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T15:07:48-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Emily. Additionally, may I have your date of birth to confirm your identity?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T15:13:01-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Of course, it's zero eight one nine one nine eight eight.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T15:18:35-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Perfect, thank you for providing that information, Emily. How can I assist you today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T15:21:48-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "I need to check the status of my claim.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T15:26:06-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "I will look into that for you. Thank you for your patience, Emily.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T15:30:27-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you for your time, Emily. Have a great day.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-20T15:32:30-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Thank you, you too.",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

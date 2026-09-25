@@ -1,1 +1,138 @@
-{"uuid": "0195b79d-55e6-818f-9dd8-dd37220d739c", "vcon": "0.0.1", "created_at": "2025-03-14T10:09:42-04:00", "redacted": {}, "group": [], "parties": [{"tel": "", "mailto": "jordan.clark@autoinsurancecompany.com", "name": "Jordan Clark", "role": "agent", "id": "jordan.clark@autoinsurancecompany.com"}, {"tel": "+19463800700", "mailto": "tiffany.ross@gmail.com", "name": "+19463800700", "role": "contact", "id": "+19463800700"}], "dialog": [{"type": "text", "start": "2025-03-14T09:31:51-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Hello! Thank you for contacting Old Stone Auto Insurance. My name is Jordan Clark. May I have your name, please?"}, {"type": "text", "start": "2025-03-14T09:36:42-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Hi, my name is Tiffany Ross."}, {"type": "text", "start": "2025-03-14T09:41:25-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Nice to meet you, Tiffany. How can I assist you today?"}, {"type": "text", "start": "2025-03-14T09:46:05-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "I need to file a new claim regarding a recent incident."}, {"type": "text", "start": "2025-03-14T09:48:46-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Of course, Tiffany. Can you please provide me with your policy number and the date of the incident in dd/mm/yyyy format?"}, {"type": "text", "start": "2025-03-14T09:53:46-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "Sure, my policy number is five six two three four one and the incident happened on twelve zero four two zero two two."}, {"type": "text", "start": "2025-03-14T09:56:45-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "Thank you, Tiffany. I will start the claim process with the information you provided. Is there anything else I can help you with today?"}, {"type": "text", "start": "2025-03-14T09:59:37-04:00", "parties": [1], "originator": 1, "mimetype": "text/plain", "body": "No, that's all for now. Thank you."}, {"type": "text", "start": "2025-03-14T10:03:44-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "You're welcome, Tiffany. If you have any further questions, feel free to reach out. Have a great day!"}, {"type": "text", "start": "2025-03-14T10:09:27-04:00", "parties": [0], "originator": 0, "mimetype": "text/plain", "body": "conversation ended"}], "attachments": [], "analysis": []}
+{
+  "uuid": "0195b79d-55e6-818f-9dd8-dd37220d739c",
+  "vcon": "0.4.0",
+  "created_at": "2025-03-14T10:09:42-04:00",
+  "parties": [
+    {
+      "tel": "",
+      "mailto": "jordan.clark@autoinsurancecompany.com",
+      "name": "Jordan Clark",
+      "role": "agent",
+      "id": "jordan.clark@autoinsurancecompany.com",
+      "validation": "synthetic"
+    },
+    {
+      "tel": "+19463800700",
+      "mailto": "tiffany.ross@gmail.com",
+      "name": "+19463800700",
+      "role": "contact",
+      "id": "+19463800700",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-03-14T09:31:51-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Hello! Thank you for contacting Old Stone Auto Insurance. My name is Jordan Clark. May I have your name, please?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T09:36:42-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Hi, my name is Tiffany Ross.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T09:41:25-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Nice to meet you, Tiffany. How can I assist you today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T09:46:05-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "I need to file a new claim regarding a recent incident.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T09:48:46-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Of course, Tiffany. Can you please provide me with your policy number and the date of the incident in dd/mm/yyyy format?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T09:53:46-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "Sure, my policy number is five six two three four one and the incident happened on twelve zero four two zero two two.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T09:56:45-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "Thank you, Tiffany. I will start the claim process with the information you provided. Is there anything else I can help you with today?",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T09:59:37-04:00",
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "body": "No, that's all for now. Thank you.",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T10:03:44-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "You're welcome, Tiffany. If you have any further questions, feel free to reach out. Have a great day!",
+      "mediatype": "text/plain"
+    },
+    {
+      "type": "text",
+      "start": "2025-03-14T10:09:27-04:00",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "body": "conversation ended",
+      "mediatype": "text/plain"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true}, {\"purpose\": \"transcription\", \"granted\": true}, {\"purpose\": \"analysis\", \"granted\": true}, {\"purpose\": \"redistribution\", \"granted\": true}], \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Synthetic conversation generated by vcon_faker (https://github.com/vcon-dev/vcon_faker); no real data subject\"}]}"
+    }
+  ],
+  "analysis": [],
+  "extensions": [
+    "lawful_basis"
+  ]
+}
