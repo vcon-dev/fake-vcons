@@ -7,9 +7,8 @@ This repository contains synthetic virtual conversation files (vCon) created usi
 601 vCons, syntax `0.4.0` (draft-ietf-vcon-vcon-core-02). All conversations are synthetic: no
 real data subject, generated end to end by vcon_faker. Every vCon carries a `lawful_basis`
 attachment (`legitimate_interests`, approved by the repo owner 2026-09-25) documenting that
-basis, and each party is marked `"validation": "synthetic"`. Four vCons reference external audio
-via presigned S3 URLs that have since expired; `vcon-data lint` flags these as
-`external-url-missing-hash` and it is expected.
+basis, and each party is marked `"validation": "synthetic"`. Four vCons reference external MP3
+audio by public URL, each with a `content_hash`. `vcon-data lint` reports no errors.
 
 ## About vcon_faker
 
